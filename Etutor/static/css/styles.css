@@ -1,0 +1,17 @@
+.recommendation-card {
+  background-color: #63686f; /* Light blue */
+    border: 1px solid hsl(180, 20%, 99%);  /* Blue border */
+    color: #f8fafc;             /* Dark blue text */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(240, 234, 234, 0.1);
+}
+
+/* Optional: Change title color */
+.recommendation-card .card-title {
+    color: #e9ebec;
+}
+.big-text {
+    font-size: 1.5em;
+}
+

@@ -1,0 +1,39 @@
+Concept,Description
+Data Analytics,Process of examining data to derive insights and make decisions.
+Descriptive Analytics,Summarizing historical data to understand trends and patterns.
+Predictive Analytics,Using statistical models to predict future outcomes.
+Prescriptive Analytics,Providing recommendations based on data analysis.
+Big Data,Large and complex datasets that require advanced processing techniques.
+Data Cleaning,Removing inconsistencies and errors from datasets.
+ETL Process,"Extracting, Transforming, and Loading data for analysis."
+Data Warehousing,Storing structured data for analysis and reporting.
+SQL,Query language used to retrieve and manipulate structured data.
+NoSQL,Databases designed for scalable and flexible data storage.
+Data Visualization,"Presenting data insights using charts, graphs, and dashboards."
+Tableau,Popular data visualization tool for business intelligence.
+Power BI,Microsoft's tool for interactive data visualization.
+Python for Data Analytics,Using Python libraries like Pandas and NumPy for analysis.
+R for Data Science,Statistical programming language used in data science.
+Machine Learning,Training models to identify patterns and make predictions.
+Supervised Learning,Machine learning using labeled training data.
+Unsupervised Learning,Machine learning with unlabeled data for clustering and patterns.
+Deep Learning,Neural networks used for complex pattern recognition.
+Feature Engineering,Creating new input features to improve model performance.
+Data Mining,Discovering patterns in large datasets using algorithms.
+Business Intelligence,Using data to support business decision-making.
+A/B Testing,Comparing two versions of a webpage or product to measure impact.
+Hypothesis Testing,Statistical method to validate assumptions about data.
+Regression Analysis,Modeling relationships between variables.
+Time Series Analysis,Analyzing data points collected over time.
+Data Privacy,Ensuring data is handled securely and ethically.
+Cloud Data Storage,Storing and managing data in cloud services.
+Google Analytics,Tracking and analyzing website traffic and user behavior.
+Apache Spark,Big data framework for large-scale data processing.
+Hadoop,Framework for distributed storage and processing of large datasets.
+Data Governance,"Managing data integrity, security, and usability."
+Real-Time Analytics,Analyzing data as it is generated.
+Anomaly Detection,Identifying rare or unusual data points in datasets.
+Dashboarding,Creating interactive dashboards for data reporting.
+Natural Language Processing,Analyzing and understanding human language data.
+Data Lakes,Storing raw data in its native format for later processing.
+Data Pipelines,Automating data flow from source to analysis.

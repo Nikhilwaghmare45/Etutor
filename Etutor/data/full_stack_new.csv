@@ -1,0 +1,39 @@
+Concept,Description
+HTML,Standard markup language for creating web pages.
+CSS,Stylesheet language used for designing web pages.
+JavaScript,Programming language used to create interactive web applications.
+React.js,JavaScript library for building user interfaces.
+Angular,Framework for building single-page web applications.
+Vue.js,Lightweight JavaScript framework for building UIs.
+Bootstrap,CSS framework for responsive web design.
+Tailwind CSS,Utility-first CSS framework for rapid UI development.
+Node.js,JavaScript runtime for server-side development.
+Express.js,Web framework for Node.js to build REST APIs.
+Django,High-level Python web framework.
+Flask,Lightweight Python web framework for APIs.
+Ruby on Rails,Web development framework using Ruby.
+Spring Boot,Java-based framework for creating microservices.
+MongoDB,NoSQL database used in modern web applications.
+MySQL,Relational database management system.
+PostgreSQL,Advanced open-source relational database.
+GraphQL,Query language for APIs and data fetching.
+RESTful APIs,Web APIs that follow REST architectural principles.
+Authentication,"Validating user identities using JWT, OAuth, or session-based auth."
+Authorization,Determining user permissions within a system.
+Docker,Containerization tool for packaging applications.
+Kubernetes,Orchestration system for managing containerized applications.
+WebSockets,Enables real-time bidirectional communication between server and client.
+CI/CD,Continuous Integration and Deployment for automating software releases.
+Microservices,Architecture for building scalable and modular applications.
+GraphQL vs REST,Comparison between RESTful APIs and GraphQL.
+State Management,"Handling application state using Redux, Context API, etc."
+Webpack,Module bundler for JavaScript applications.
+SSR vs CSR,Comparison between Server-Side Rendering and Client-Side Rendering.
+Progressive Web Apps,Web apps with offline support and improved performance.
+Headless CMS,Content management system without a front-end.
+SEO Optimization,Improving web pages for better search engine ranking.
+Testing in Web Development,"Unit, integration, and end-to-end testing methods."
+Performance Optimization,Techniques to improve website loading speed.
+Web Accessibility,Ensuring websites are usable by people with disabilities.
+Cloud Deployment,"Hosting applications on AWS, Azure, or Google Cloud."
+API Security,Securing APIs using authentication and encryption.

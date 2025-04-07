@@ -1,0 +1,220 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h3 class="mb-0">{{ chapter.title }}</h3>
+                <span class="badge bg-primary">Chapter {{ chapter.id }} of 9</span>
+            </div>
+            <div class="card-body">
+                <div class="chapter-content">
+                    <p class="lead">{{ chapter.content }}</p>
+                    
+                    <h4 class="mt-4 mb-3">Chapter Content</h4>
+                    
+                    {% if course_name == 'python' %}
+                        <p>Python is a high-level, interpreted programming language known for its readability and versatility. In this chapter, we'll explore fundamental concepts that will help you build a strong foundation in Python programming.</p>
+                        
+                        <h5 class="mt-4">Key Concepts in Python</h5>
+                        <ul>
+                            <li>Variables and data types</li>
+                            <li>Control structures (if statements, loops)</li>
+                            <li>Functions and modules</li>
+                            <li>Error handling with try/except</li>
+                        </ul>
+                        
+                        <h5 class="mt-4">Example Code</h5>
+                        <pre class="bg-dark text-light p-3 rounded"><code># Basic Python example
+def greet(name):
+    """A simple function to greet a user"""
+    return f"Hello, {name}! Welcome to Python programming."
+
+# Using the function
+user_name = input("Enter your name: ")
+message = greet(user_name)
+print(message)
+
+# Working with lists
+numbers = [1, 2, 3, 4, 5]
+squared = [num ** 2 for num in numbers]
+print(f"Original numbers: {numbers}")
+print(f"Squared numbers: {squared}")</code></pre>
+                        
+                    {% elif course_name == 'data_analytics' %}
+                        <p>Data Analytics involves examining raw data to draw conclusions and identify patterns. This chapter introduces you to the fundamental concepts of data analytics and the tools used in the field.</p>
+                        
+                        <h5 class="mt-4">Key Concepts in Data Analytics</h5>
+                        <ul>
+                            <li>Data collection and cleaning</li>
+                            <li>Exploratory data analysis</li>
+                            <li>Statistical methods for data analysis</li>
+                            <li>Data visualization techniques</li>
+                        </ul>
+                        
+                        <h5 class="mt-4">Example Code</h5>
+                        <pre class="bg-dark text-light p-3 rounded"><code># Data analysis with Pandas
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load and examine data
+data = pd.read_csv('sample_data.csv')
+print(data.head())
+
+# Basic statistical analysis
+print(data.describe())
+
+# Data visualization
+data.plot(kind='bar', x='Category', y='Value')
+plt.title('Value Distribution by Category')
+plt.xlabel('Category')
+plt.ylabel('Value')
+plt.show()</code></pre>
+                        
+                    {% elif course_name == 'full_stack' %}
+                        <p>Full Stack Development encompasses both front-end and back-end web development. This chapter introduces you to the fundamental concepts and technologies used in full stack development.</p>
+                        
+                        <h5 class="mt-4">Key Concepts in Full Stack Development</h5>
+                        <ul>
+                            <li>HTML, CSS, and JavaScript basics</li>
+                            <li>Front-end frameworks and libraries</li>
+                            <li>Server-side programming</li>
+                            <li>Database design and integration</li>
+                        </ul>
+                        
+                        <h5 class="mt-4">Example Code</h5>
+                        <pre class="bg-dark text-light p-3 rounded"><code><!-- HTML Example -->
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My Web App&lt;/title&gt;
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Welcome to My Web App&lt;/h1&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+    
+    &lt;main&gt;
+        &lt;section&gt;
+            &lt;h2&gt;Featured Content&lt;/h2&gt;
+            &lt;p&gt;This is where your main content goes.&lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+    
+    &lt;script src="app.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    {% endif %}
+                </div>
+                
+                <div class="d-flex justify-content-between mt-4">
+                    {% if chapter.id > 1 %}
+                        <a href="{{ url_for('chapter', course_name=course_name, chapter_id=chapter.id-1) }}" 
+                           class="btn btn-outline-secondary">
+                            <i class="fas fa-chevron-left me-1"></i> Previous Chapter
+                        </a>
+                    {% else %}
+                        <div></div>
+                    {% endif %}
+                    
+                    <a href="{{ url_for('chapter_test', course_name=course_name, chapter_id=chapter.id) }}" 
+                       class="btn btn-primary btn-take-test" 
+                       data-course="{{ course_name }}" 
+                       data-chapter="{{ chapter.id }}">
+                        Take Chapter Test <i class="fas fa-chevron-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="mb-0">Chapter Navigation</h4>
+            </div>
+            <div class="card-body">
+                <ul class="chapter-list">
+                    {% for ch in course.chapters %}
+                        <li class="chapter-item {% if ch.id < chapter.id %}completed{% endif %} 
+                                               {% if ch.id == chapter.id %}current{% endif %}
+                                               {% if ch.id > chapter.id %}disabled{% endif %}"
+                            data-course="{{ course_name }}" 
+                            data-chapter="{{ ch.id }}">
+                            
+                            {% if ch.id < chapter.id %}
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                            {% elif ch.id == chapter.id %}
+                                <i class="fas fa-circle text-primary me-2"></i>
+                            {% else %}
+                                <i class="far fa-circle text-muted me-2"></i>
+                            {% endif %}
+                            
+                            Chapter {{ ch.id }}: {{ ch.title.split(': ')[1] if ': ' in ch.title else ch.title }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="mb-0">Resources</h4>
+            </div>
+            <div class="card-body">
+                <ul class="fa-ul mb-0">
+                    <li><span class="fa-li"><i class="fas fa-book"></i></span>Supplementary Reading</li>
+                    <li><span class="fa-li"><i class="fas fa-video"></i></span>Video Tutorials</li>
+                    <li><span class="fa-li"><i class="fas fa-code"></i></span>Practice Exercises</li>
+                    <li><span class="fa-li"><i class="fas fa-external-link-alt"></i></span>External References</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Floating Chatbot Icon -->
+        {% if chatbot_enabled %}
+        <div class="chatbot-icon" id="chatbotIcon">
+            <i class="fas fa-comment-dots"></i>
+        </div>
+        
+        <!-- Chatbot Assistant (initially hidden) -->
+        <div class="card chatbot-card" id="chatbotCard">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Course Assistant</h5>
+                <button type="button" class="btn-close btn-close-white" id="closeChatBtn" aria-label="Close"></button>
+            </div>
+            <div class="card-body">
+                <div class="chat-container" id="chatContainer">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-content">
+                                <p>Hello! I'm your course assistant. How can I help you with this chapter?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input-container">
+                        <input type="text" id="chatInput" class="form-control" placeholder="Ask a question about this chapter...">
+                        <button id="sendChatBtn" class="btn btn-primary mt-2 w-100">
+                            <i class="fas fa-paper-plane me-1"></i> Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/course.js') }}"></script>
+{% endblock %}

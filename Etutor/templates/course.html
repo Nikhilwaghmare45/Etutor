@@ -1,0 +1,123 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3 class="mb-0">{{ course.title }}</h3>
+            </div>
+            <div class="card-body">
+                <p class="lead">{{ course.description }}</p>
+                
+                <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" 
+                         style="width: {{ ((current_chapter - 1) / 9) * 100 }}%" 
+                         aria-valuenow="{{ ((current_chapter - 1) / 9) * 100 }}" 
+                         aria-valuemin="0" aria-valuemax="100">
+                        {{ ((current_chapter - 1) / 9) * 100 | round }}%
+                    </div>
+                </div>
+                
+                <h4 class="mb-3">Course Content</h4>
+                <ul class="list-group mb-4">
+                    {% for chapter in course.chapters %}
+                        <li class="list-group-item 
+                            {% if chapter.id < current_chapter %}bg-success bg-opacity-10{% endif %}
+                            {% if chapter.id == current_chapter %}bg-primary bg-opacity-10{% endif %}
+                            {% if chapter.id > current_chapter %}disabled{% endif %}">
+                            
+                            {% if chapter.id < current_chapter %}
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                            {% elif chapter.id == current_chapter %}
+                                <i class="fas fa-circle text-primary me-2"></i>
+                            {% else %}
+                                <i class="far fa-circle text-muted me-2"></i>
+                            {% endif %}
+                            
+                            <strong>Chapter {{ chapter.id }}:</strong> {{ chapter.title.split(': ')[1] if ': ' in chapter.title else chapter.title }}
+                            
+                            {% if chapter.id <= current_chapter %}
+                                <a href="{{ url_for('chapter', course_name=course_name, chapter_id=chapter.id) }}" 
+                                   class="btn btn-sm btn-outline-primary float-end">
+                                   {% if chapter.id < current_chapter %}Review{% else %}Start{% endif %}
+                                </a>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="mb-0">Your Progress</h4>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span>Completed:</span>
+                    <span class="badge bg-primary">{{ current_chapter - 1 }} / {{ course.chapters|length }}</span>
+                </div>
+                
+                <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" 
+                         style="width: {{ ((current_chapter - 1) / 9) * 100 }}%" 
+                         aria-valuenow="{{ ((current_chapter - 1) / 9) * 100 }}" 
+                         aria-valuemin="0" aria-valuemax="100">
+                         {{ ((current_chapter - 1) / 9) * 100 | round }}%
+                    </div>
+                </div>
+                
+                {% if current_chapter <= course.chapters|length %}
+                    <div class="d-grid gap-2">
+                        <a href="{{ url_for('chapter', course_name=course_name, chapter_id=current_chapter) }}" 
+                           class="btn btn-primary">
+                            Continue Learning
+                        </a>
+                    </div>
+                {% else %}
+                    <div class="alert alert-success mb-0">
+                        <i class="fas fa-trophy me-2"></i>
+                        Congratulations! You've completed this course.
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">What You'll Learn</h4>
+            </div>
+            <div class="card-body">
+                <ul class="fa-ul mb-0">
+                    {% if course_name == 'python' %}
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Python fundamentals and syntax</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Data structures and algorithms</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Object-oriented programming</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>File handling and manipulation</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Exception handling</li>
+                    {% elif course_name == 'data_analytics' %}
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Data cleaning and preparation</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Statistical analysis techniques</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Data visualization</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Pandas and NumPy libraries</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Machine learning basics</li>
+                    {% elif course_name == 'full_stack' %}
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML, CSS, and JavaScript</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Frontend frameworks</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Backend development</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Database design and management</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>API development and integration</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/course.js') }}"></script>
+{% endblock %}

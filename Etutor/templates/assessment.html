@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-10">
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">Initial Assessment</h3>
+            </div>
+            <div class="card-body">
+                <p class="mb-4">
+                    Welcome to the initial assessment! This will help us understand your skills and 
+                    recommend the most suitable course for you. Please answer all questions to the best of your knowledge.
+                </p>
+                
+                <form method="POST" action="{{ url_for('assessment') }}" id="assessmentForm">
+                    {% for question in questions %}
+                        <div class="question-card" id="question{{ question.id }}">
+                            <h5 class="card-title mb-3">
+                                <span class="badge bg-primary me-2">{{ loop.index }}</span>
+                                {{ question.question }}
+                            </h5>
+                            
+                            <div class="question-options">
+                                {% for option in question.options %}
+                                    <div class="form-check question-option">
+                                        <input class="form-check-input" type="radio" 
+                                               name="question_{{ question.id }}" 
+                                               id="q{{ question.id }}_option{{ loop.index }}" 
+                                               value="{{ loop.index }}" required>
+                                        <label class="form-check-label" for="q{{ question.id }}_option{{ loop.index }}">
+                                            {{ option }}
+                                        </label>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        
+                        {% if not loop.last %}
+                            <hr class="my-4">
+                        {% endif %}
+                    {% endfor %}
+                    
+                    <div class="d-grid gap-2 col-md-6 mx-auto mt-5">
+                        <button type="submit" class="btn btn-primary btn-lg">Submit Assessment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Add click event to options for selection highlighting
+    const options = document.querySelectorAll('.question-option');
+    options.forEach(option => {
+        option.addEventListener('click', function() {
+            // Get all options in the same question group
+            const questionId = this.querySelector('input').name;
+            const questionOptions = document.querySelectorAll(`input[name="${questionId}"]`);
+            
+            // Remove selected class from all options in this group
+            questionOptions.forEach(opt => {
+                opt.closest('.question-option').classList.remove('selected');
+            });
+            
+            // Add selected class to the clicked option
+            this.classList.add('selected');
+            
+            // Check the radio input
+            this.querySelector('input').checked = true;
+        });
+    });
+});
+</script>
+{% endblock %}

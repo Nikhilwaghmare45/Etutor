@@ -1,0 +1,40 @@
+Concept,Description
+Variables,Containers for storing data values.
+Data Types,"Different types of values a variable can hold, like int, float, and str."
+Lists,"Ordered collection of elements, mutable and indexed."
+Tuples,Immutable ordered collection of elements.
+Dictionaries,Key-value pairs used for mapping and storing data.
+Sets,Unordered collection of unique elements.
+Conditional Statements,Used to execute code blocks based on conditions.
+Loops,Structures for repeating a block of code multiple times.
+Functions,Reusable blocks of code that perform a specific task.
+Lambda Functions,Anonymous functions defined with the lambda keyword.
+Exception Handling,Mechanism to handle runtime errors gracefully using try-except blocks.
+File Handling,"Reading, writing, and managing files in Python."
+List Comprehension,Concise way to create lists using a single line of code.
+Decorators,Functions that modify the behavior of other functions.
+Classes and Objects,Core concepts of Object-Oriented Programming in Python.
+Inheritance,Mechanism to derive a new class from an existing class.
+Polymorphism,Concept where a function can take multiple forms.
+Encapsulation,Restricting access to certain details of an object.
+Recursion,Function calling itself to solve a problem in a smaller form.
+Generators,Functions that yield values lazily using 'yield' keyword.
+Multithreading,Executing multiple threads in parallel to improve performance.
+Multiprocessing,Running multiple processes independently in parallel.
+Regular Expressions,Pattern matching technique for string manipulation.
+Virtual Environments,Isolated environments for managing Python dependencies.
+Pandas,Library for data manipulation and analysis.
+NumPy,Library for numerical computing and working with arrays.
+Matplotlib,Library for data visualization and plotting graphs.
+Seaborn,Library for statistical data visualization built on Matplotlib.
+Scikit-learn,Machine learning library with algorithms and preprocessing tools.
+TensorFlow,Deep learning framework for building neural networks.
+PyTorch,Machine learning framework for deep learning research.
+APIs,Interfaces for communicating between different software components.
+JSON,Lightweight data interchange format often used in APIs.
+Web Scraping,Extracting data from websites using Python libraries like BeautifulSoup.
+Database Connectivity,Connecting Python to databases like MySQL and PostgreSQL.
+Logging,Mechanism to track and record events during code execution.
+Unit Testing,Testing individual units of code for correctness.
+Assertions,Used for debugging and testing conditions in code.
+Memory Management,How Python allocates and deallocates memory dynamically.

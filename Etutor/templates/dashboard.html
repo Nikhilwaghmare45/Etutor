@@ -1,0 +1,225 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="dashboard-header">
+    <h1 class="mb-4">Welcome, {{ user.name }}!</h1>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    
+    <div class="card recommendation-card mb-4">
+        <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-lightbulb me-2"></i>Personalized Learning Recommendations</h5>
+            <p class="card-text">
+                Based on your assessment, we recommend you to start with 
+                <strong class="big-text">{{ recommended_course }}</strong> course.         
+            </p>
+            <p class="card-text">
+                <i class="fas fa-chart-line me-2"></i><strong>AI-Powered Chapter Recommendations:</strong>
+                <ul class="list-group list-group-flush mt-2">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>Python Programming</span>
+                        <span class="badge bg-primary rounded-pill">Start at Chapter {{ course_progress.python.current_chapter }}</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>Data Analytics</span>
+                        <span class="badge bg-primary rounded-pill">Start at Chapter {{ course_progress.data_analytics.current_chapter }}</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>Full Stack Development</span>
+                        <span class="badge bg-primary rounded-pill">Start at Chapter {{ course_progress.full_stack.current_chapter }}</span>
+                    </li>
+                </ul>
+            </p>
+            <div class="mt-3">
+                <a href="{{ url_for('course', course_name=recommended_course.lower().replace(' ', '_')) }}" 
+                   class="btn btn-primary">Start Learning</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="mb-0">Your Courses</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card course-card" data-course="python">
+                            <div class="card-body">
+                                <h5 class="card-title">Python Programming</h5>
+                                <div class="progress mb-2">
+                                    <div class="progress-bar bg-primary" role="progressbar" 
+                                         style="width: {{ course_progress.python.percentage }}%"
+                                         aria-valuenow="{{ course_progress.python.percentage }}" 
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="card-text small">
+                                    {% if course_progress.python.completed %}
+                                        <span class="badge bg-success">Completed</span>
+                                    {% else %}
+                                        Chapter {{ course_progress.python.current_chapter }}/9
+                                    {% endif %}
+                                </p>
+                                <a href="{{ url_for('course', course_name='python') }}" class="btn btn-sm btn-outline-primary">
+                                    {% if course_progress.python.current_chapter == 1 and course_progress.python.percentage == 0 %}
+                                        Start Course
+                                    {% else %}
+                                        Continue
+                                    {% endif %}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-3">
+                        <div class="card course-card" data-course="data_analytics">
+                            <div class="card-body">
+                                <h5 class="card-title">Data Analytics</h5>
+                                <div class="progress mb-2">
+                                    <div class="progress-bar bg-info" role="progressbar" 
+                                         style="width: {{ course_progress.data_analytics.percentage }}%"
+                                         aria-valuenow="{{ course_progress.data_analytics.percentage }}" 
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="card-text small">
+                                    {% if course_progress.data_analytics.completed %}
+                                        <span class="badge bg-success">Completed</span>
+                                    {% else %}
+                                        Chapter {{ course_progress.data_analytics.current_chapter }}/9
+                                    {% endif %}
+                                </p>
+                                <a href="{{ url_for('course', course_name='data_analytics') }}" class="btn btn-sm btn-outline-primary">
+                                    {% if course_progress.data_analytics.current_chapter == 1 and course_progress.data_analytics.percentage == 0 %}
+                                        Start Course
+                                    {% else %}
+                                        Continue
+                                    {% endif %}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-3">
+                        <div class="card course-card" data-course="full_stack">
+                            <div class="card-body">
+                                <h5 class="card-title">Full Stack Development</h5>
+                                <div class="progress mb-2">
+                                    <div class="progress-bar bg-success" role="progressbar" 
+                                         style="width: {{ course_progress.full_stack.percentage }}%"
+                                         aria-valuenow="{{ course_progress.full_stack.percentage }}" 
+                                         aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="card-text small">
+                                    {% if course_progress.full_stack.completed %}
+                                        <span class="badge bg-success">Completed</span>
+                                    {% else %}
+                                        Chapter {{ course_progress.full_stack.current_chapter }}/9
+                                    {% endif %}
+                                </p>
+                                <a href="{{ url_for('course', course_name='full_stack') }}" class="btn btn-sm btn-outline-primary">
+                                    {% if course_progress.full_stack.current_chapter == 1 and course_progress.full_stack.percentage == 0 %}
+                                        Start Course
+                                    {% else %}
+                                        Continue
+                                    {% endif %}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">Progress Overview</h4>
+            </div>
+            <div class="card-body">
+                <canvas id="progressChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">Learning Path</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Python Programming</h5>
+                        <ul class="list-group">
+                            {% for i in range(1, 10) %}
+                                <li class="list-group-item 
+                                    {% if i < course_progress.python.current_chapter %}bg-success bg-opacity-10{% endif %}
+                                    {% if i == course_progress.python.current_chapter %}bg-primary bg-opacity-10{% endif %}">
+                                    {% if i < course_progress.python.current_chapter %}
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                    {% elif i == course_progress.python.current_chapter %}
+                                        <i class="fas fa-circle text-primary me-2"></i>
+                                    {% else %}
+                                        <i class="far fa-circle text-muted me-2"></i>
+                                    {% endif %}
+                                    Chapter {{ i }}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <h5>Data Analytics</h5>
+                        <ul class="list-group">
+                            {% for i in range(1, 10) %}
+                                <li class="list-group-item 
+                                    {% if i < course_progress.data_analytics.current_chapter %}bg-success bg-opacity-10{% endif %}
+                                    {% if i == course_progress.data_analytics.current_chapter %}bg-primary bg-opacity-10{% endif %}">
+                                    {% if i < course_progress.data_analytics.current_chapter %}
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                    {% elif i == course_progress.data_analytics.current_chapter %}
+                                        <i class="fas fa-circle text-primary me-2"></i>
+                                    {% else %}
+                                        <i class="far fa-circle text-muted me-2"></i>
+                                    {% endif %}
+                                    Chapter {{ i }}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <h5>Full Stack Development</h5>
+                        <ul class="list-group">
+                            {% for i in range(1, 10) %}
+                                <li class="list-group-item 
+                                    {% if i < course_progress.full_stack.current_chapter %}bg-success bg-opacity-10{% endif %}
+                                    {% if i == course_progress.full_stack.current_chapter %}bg-primary bg-opacity-10{% endif %}">
+                                    {% if i < course_progress.full_stack.current_chapter %}
+                                        <i class="fas fa-check-circle text-success me-2"></i>
+                                    {% elif i == course_progress.full_stack.current_chapter %}
+                                        <i class="fas fa-circle text-primary me-2"></i>
+                                    {% else %}
+                                        <i class="far fa-circle text-muted me-2"></i>
+                                    {% endif %}
+                                    Chapter {{ i }}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

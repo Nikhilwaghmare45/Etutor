@@ -1,0 +1,182 @@
+{
+    "python": {
+        "title": "Python Programming",
+        "description": "Learn Python programming from basics to advanced concepts",
+        "chapters": [
+            {
+                "id": 1,
+                "title": "Chapter 1: Python Fundamentals 1",
+                "content": "This chapter introduces you to Python programming fundamentals. Key concepts include: 1) Variables - containers that store data values, 2) Data Types - including integers for whole numbers, floats for decimal numbers, strings for text, and booleans for true/false values, 3) Basic Operations - arithmetic operations (+, -, *, /) and string operations (concatenation, slicing), 4) Input/Output - using input() to get user data and print() to display output. Important: Python is dynamically typed, meaning you don't need to declare variable types explicitly. Essential operations include type conversion (str(), int(), float()), string formatting with f-strings, and basic error handling. You'll learn to write simple programs that can take user input, process data, and display results.",
+                "test": "test_python_1"
+            },
+            {
+                "id": 2,
+                "title": "Chapter 2: Python Fundamentals 2",
+                "content": "In this chapter, we dive into control structures in Python. You'll learn about conditional statements (if, elif, else), loops (for and while), and how to control flow in your programs. We'll also cover how to break out of loops or skip iterations using break and continue statements. These structures are essential for creating dynamic programs that can make decisions.",
+                "test": "test_python_2"
+            },
+            {
+                "id": 3,
+                "title": "Chapter 3: Python Fundamentals 3",
+                "content": "This chapter focuses on data structures in Python. You'll learn about lists, tuples, dictionaries, and sets - the core data structures that allow you to organize and manipulate data efficiently. We'll explore operations like adding, removing, and accessing elements, as well as methods specific to each data structure. You'll see how to use list comprehensions for concise list creation.",
+                "test": "test_python_3"
+            },
+            {
+                "id": 4,
+                "title": "Chapter 4: Python Fundamentals 4",
+                "content": "Functions are the focus of this chapter. You'll learn how to define and call functions, work with parameters and return values, and understand variable scope. We'll cover default parameters, keyword arguments, and variable-length argument lists (*args and **kwargs). You'll also explore lambda functions - small anonymous functions defined with minimal syntax.",
+                "test": "test_python_4"
+            },
+            {
+                "id": 5,
+                "title": "Chapter 5: Python Fundamentals 5",
+                "content": "This chapter introduces object-oriented programming (OOP) in Python. You'll learn about classes, objects, attributes, and methods. We'll cover the concepts of encapsulation, inheritance, and polymorphism. You'll see how to create your own classes, define methods, work with class and instance variables, and establish inheritance relationships between classes.",
+                "test": "test_python_5"
+            },
+            {
+                "id": 6,
+                "title": "Chapter 6: Python Fundamentals 6",
+                "content": "Error handling is crucial in programming, and this chapter teaches you how to deal with exceptions in Python. You'll learn about try-except blocks, handling specific exception types, and using finally clauses. We'll also cover raising your own exceptions and creating custom exception classes. These skills help you write robust programs that can gracefully handle unexpected situations.",
+                "test": "test_python_6"
+            },
+            {
+                "id": 7,
+                "title": "Chapter 7: Python Fundamentals 7",
+                "content": "This chapter focuses on working with files in Python. You'll learn how to open, read, write, and close files. We'll cover text and binary file modes, file methods, and context managers using the 'with' statement. You'll also explore working with different file formats like CSV and JSON, which are commonly used for data exchange.",
+                "test": "test_python_7"
+            },
+            {
+                "id": 8,
+                "title": "Chapter 8: Python Fundamentals 8",
+                "content": "In this chapter, we explore modules and packages in Python. You'll learn how to import and use modules, create your own modules, and organize code into packages. We'll cover the Python standard library and how to install and use third-party packages with pip. Understanding modules helps you write maintainable code and leverage the vast ecosystem of Python libraries.",
+                "test": "test_python_8"
+            },
+            {
+                "id": 9,
+                "title": "Chapter 9: Python Fundamentals 9",
+                "content": "The final chapter covers advanced topics in Python. You'll learn about decorators, generators, iterators, and context managers. We'll explore regular expressions for pattern matching and discuss Python's approach to functional programming. You'll also get an introduction to some advanced libraries like NumPy and Pandas that make Python powerful for data processing and analysis.",
+                "test": "test_python_9"
+            }
+        ]
+    },
+    "data_analytics": {
+        "title": "Data Analytics",
+        "description": "Master data analysis techniques and tools",
+        "chapters": [
+            {
+                "id": 1,
+                "title": "Chapter 1: Data Analytics Fundamentals 1",
+                "content": "This introductory chapter covers the basics of data analytics. You'll learn what data analytics is, why it's important, and how it's used across different industries. We'll discuss the data analytics lifecycle, types of analytics (descriptive, diagnostic, predictive, prescriptive), and the role of a data analyst. You'll get an overview of the tools and skills needed to succeed in this field.",
+                "test": "test_data_analytics_1"
+            },
+            {
+                "id": 2,
+                "title": "Chapter 2: Data Analytics Fundamentals 2",
+                "content": "Data collection and preparation are crucial first steps in any analytics project. In this chapter, you'll learn about different data sources, methods for collecting data, and techniques for data cleaning. We'll cover how to identify and handle missing values, outliers, and inconsistencies in your data. You'll also explore the concept of data quality and its importance in analytics.",
+                "test": "test_data_analytics_2"
+            },
+            {
+                "id": 3,
+                "title": "Chapter 3: Data Analytics Fundamentals 3",
+                "content": "This chapter introduces you to statistical concepts essential for data analysis. You'll learn about descriptive statistics, measures of central tendency (mean, median, mode), measures of dispersion (range, variance, standard deviation), and probability distributions. We'll also cover statistical inference, hypothesis testing, and confidence intervals - all fundamental tools for drawing conclusions from data.",
+                "test": "test_data_analytics_3"
+            },
+            {
+                "id": 4,
+                "title": "Chapter 4: Data Analytics Fundamentals 4",
+                "content": "Data visualization is a powerful way to communicate insights. In this chapter, you'll learn principles of effective data visualization and how to create various types of charts and graphs. We'll explore tools like Matplotlib and Seaborn in Python, and discuss how to choose the right visualization for your data. You'll understand how to avoid common visualization pitfalls and create clear, compelling visual stories.",
+                "test": "test_data_analytics_4"
+            },
+            {
+                "id": 5,
+                "title": "Chapter 5: Data Analytics Fundamentals 5",
+                "content": "This chapter focuses on exploratory data analysis (EDA). You'll learn how to investigate datasets to discover patterns, spot anomalies, test hypotheses, and check assumptions. We'll cover techniques like univariate analysis, bivariate analysis, and multivariate analysis. You'll see how EDA combines statistical and visualization techniques to gain a deep understanding of your data before formal modeling.",
+                "test": "test_data_analytics_5"
+            },
+            {
+                "id": 6,
+                "title": "Chapter 6: Data Analytics Fundamentals 6",
+                "content": "In this chapter, we dive into Python for data analysis, focusing on the Pandas library. You'll learn how to work with DataFrames and Series objects, perform data manipulation operations, handle missing data, and merge datasets. We'll also cover grouping, aggregation, and pivoting data. These skills form the foundation for efficient data analysis in Python.",
+                "test": "test_data_analytics_6"
+            },
+            {
+                "id": 7,
+                "title": "Chapter 7: Data Analytics Fundamentals 7",
+                "content": "This chapter introduces you to SQL for data analysis. You'll learn how to query databases using SELECT statements, filter data with WHERE clauses, sort results with ORDER BY, and join tables. We'll also cover aggregation functions, grouping, and subqueries. SQL is essential for working with relational databases, which are common sources of data in analytics projects.",
+                "test": "test_data_analytics_7"
+            },
+            {
+                "id": 8,
+                "title": "Chapter 8: Data Analytics Fundamentals 8",
+                "content": "In this chapter, we explore basic machine learning concepts for data analytics. You'll learn about supervised and unsupervised learning, the difference between classification and regression, and how to evaluate model performance. We'll cover simple algorithms like linear regression, decision trees, and k-means clustering. This provides a foundation for more advanced predictive analytics.",
+                "test": "test_data_analytics_8"
+            },
+            {
+                "id": 9,
+                "title": "Chapter 9: Data Analytics Fundamentals 9",
+                "content": "The final chapter covers practical aspects of analytics projects. You'll learn how to define business questions, communicate results effectively, and create impactful reports and dashboards. We'll discuss ethical considerations in data analytics, including privacy, bias, and responsible use of data. The chapter concludes with career paths in data analytics and tips for building a portfolio.",
+                "test": "test_data_analytics_9"
+            }
+        ]
+    },
+    "full_stack": {
+        "title": "Full Stack Development",
+        "description": "Become a full stack web developer with front-end and back-end skills",
+        "chapters": [
+            {
+                "id": 1,
+                "title": "Chapter 1: Full Stack Fundamentals 1",
+                "content": "This introductory chapter covers the basics of full stack development. You'll learn what full stack development is, the role of a full stack developer, and an overview of the technologies involved. We'll discuss the client-server architecture, how the web works (HTTP, DNS, hosting), and the different layers of web applications. This foundation will help you understand how all the pieces fit together.",
+                "test": "test_full_stack_1"
+            },
+            {
+                "id": 2,
+                "title": "Chapter 2: Full Stack Fundamentals 2",
+                "content": "HTML (HyperText Markup Language) is the backbone of web pages. In this chapter, you'll learn HTML5 elements, attributes, semantic markup, forms, and media elements. We'll cover best practices for structure and accessibility. You'll build sample pages and understand how to create the structure of web applications that users interact with.",
+                "test": "test_full_stack_2"
+            },
+            {
+                "id": 3,
+                "title": "Chapter 3: Full Stack Fundamentals 3",
+                "content": "CSS (Cascading Style Sheets) controls the presentation of HTML elements. This chapter teaches you CSS selectors, properties, the box model, layout techniques (Flexbox, Grid), and responsive design principles. You'll learn how to style web pages, create animations, and ensure your applications look good on all devices. We'll also touch on CSS frameworks like Bootstrap.",
+                "test": "test_full_stack_3"
+            },
+            {
+                "id": 4,
+                "title": "Chapter 4: Full Stack Fundamentals 4",
+                "content": "JavaScript is the programming language of the web. In this chapter, you'll learn JavaScript fundamentals including variables, data types, functions, control structures, and DOM manipulation. We'll cover events, asynchronous programming with Promises and async/await, and how to make web pages interactive. These skills are essential for creating dynamic user experiences.",
+                "test": "test_full_stack_4"
+            },
+            {
+                "id": 5,
+                "title": "Chapter 5: Full Stack Fundamentals 5",
+                "content": "This chapter focuses on front-end frameworks, particularly React. You'll learn component-based architecture, JSX syntax, state management, props, and lifecycle methods. We'll cover hooks, context API, and routing. You'll build a simple application using React and understand how modern front-end development streamlines the creation of complex user interfaces.",
+                "test": "test_full_stack_5"
+            },
+            {
+                "id": 6,
+                "title": "Chapter 6: Full Stack Fundamentals 6",
+                "content": "Node.js enables JavaScript on the server side. In this chapter, you'll learn how to set up a Node.js environment, understand the event-driven architecture, and work with the npm ecosystem. We'll cover creating a basic server, handling requests and responses, and working with modules. These skills form the foundation for back-end development with JavaScript.",
+                "test": "test_full_stack_6"
+            },
+            {
+                "id": 7,
+                "title": "Chapter 7: Full Stack Fundamentals 7",
+                "content": "Express is a popular web framework for Node.js. This chapter teaches you how to create REST APIs with Express, handle routing, middleware, and error handling. You'll learn about request/response objects, route parameters, and query strings. We'll also cover authentication strategies and how to structure an Express application for maintainability.",
+                "test": "test_full_stack_7"
+            },
+            {
+                "id": 8,
+                "title": "Chapter 8: Full Stack Fundamentals 8",
+                "content": "Databases are crucial for storing application data. This chapter covers both SQL (focusing on MySQL) and NoSQL (focusing on MongoDB) databases. You'll learn database design, relationships, CRUD operations, and how to connect your back-end to databases. We'll discuss ORMs and ODMs that simplify database interactions in your applications.",
+                "test": "test_full_stack_8"
+            },
+            {
+                "id": 9,
+                "title": "Chapter 9: Full Stack Fundamentals 9",
+                "content": "The final chapter brings everything together by developing a full stack application. You'll learn how to connect your React front-end with your Express back-end, handle authentication and authorization, deploy your application, and implement best practices. We'll also cover topics like testing, version control with Git, and continuous integration/deployment. This capstone chapter demonstrates how all the components work together in a real-world application.",
+                "test": "test_full_stack_9"
+            }
+        ]
+    }
+}

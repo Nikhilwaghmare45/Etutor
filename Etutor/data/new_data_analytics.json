@@ -1,0 +1,1010 @@
+{
+  "data_analytics": {
+    "chapters": {
+      "chapter1": {
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is data analytics?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "The process of examining data to draw conclusions",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 2,
+            "question": "What is a full stack developer?",
+            "options": {
+              "a": "A type of database",
+              "b": "None of the above",
+              "c": "A developer skilled in both front-end and back-end technologies",
+              "d": "A CSS framework"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 3,
+            "question": "What is client-server architecture?",
+            "options": {
+              "a": "A type of database",
+              "b": "None of the above",
+              "c": "A model where clients request data and servers provide it",
+              "d": "A CSS framework"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 4,
+            "question": "What is the data analytics lifecycle?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "None of the above",
+              "c": "Steps from data collection to insight generation",
+              "d": "A CSS framework"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 5,
+            "question": "What is descriptive analytics?",
+            "options": {
+              "a": "Recommending actions based on data insights",
+              "b": "None of the above",
+              "c": "Summarizing what happened using historical data",
+              "d": "Forecasting what might happen"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 6,
+            "question": "What is diagnostic analytics?",
+            "options": {
+              "a": "Forecasting what might happen",
+              "b": "None of the above",
+              "c": "Determining why something happened",
+              "d": "Recommending actions based on data insights"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 7,
+            "question": "What is predictive analytics?",
+            "options": {
+              "a": "Recommending actions based on data insights",
+              "b": "Forecasting what might happen using data models",
+              "c": "Summarizing what happened",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 8,
+            "question": "What is prescriptive analytics?",
+            "options": {
+              "a": "Forecasting what might happen",
+              "b": "Recommending actions based on data insights",
+              "c": "None of the above",
+              "d": "Summarizing what happened"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 9,
+            "question": "What is the data analyst role?",
+            "options": {
+              "a": "Creating databases",
+              "b": "None of the above",
+              "c": "Responsibilities of analyzing and interpreting data",
+              "d": "Designing user interfaces"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 10,
+            "question": "What are analytics tools?",
+            "options": {
+              "a": "A type of database",
+              "b": "None of the above",
+              "c": "Software like Python and SQL used for data analysis",
+              "d": "A CSS framework"
+            },
+            "correct_option": "c"
+          }
+        ]
+      },
+      "chapter2": {
+        "questions": [
+          {
+            "id": 11,
+            "question": "What is data collection?",
+            "options": {
+              "a": "None of the above",
+              "b": "Gathering data from various sources",
+              "c": "Analyzing data",
+              "d": "Storing data"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 12,
+            "question": "What is data preparation?",
+            "options": {
+              "a": "None of the above",
+              "b": "Organizing and cleaning data for analysis",
+              "c": "Collecting data",
+              "d": "Storing data"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 13,
+            "question": "What are data sources?",
+            "options": {
+              "a": "Data storage methods",
+              "b": "None of the above",
+              "c": "Places where data originates (e.g., databases, APIs)",
+              "d": "Types of data"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 14,
+            "question": "What is data cleaning?",
+            "options": {
+              "a": "None of the above",
+              "b": "Fixing errors and inconsistencies in data",
+              "c": "Collecting data",
+              "d": "Storing data"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 15,
+            "question": "What are missing values?",
+            "options": {
+              "a": "Data points that are incorrect",
+              "b": "Data points that are absent in a dataset",
+              "c": "None of the above",
+              "d": "Data points that are duplicates"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 16,
+            "question": "What are outliers?",
+            "options": {
+              "a": "Data points that differ significantly from others",
+              "b": "None of the above",
+              "c": "Data points that are missing",
+              "d": "Data points that are duplicates"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 17,
+            "question": "What are inconsistencies in data?",
+            "options": {
+              "a": "None of the above",
+              "b": "Errors or contradictions in data",
+              "c": "Data points that are missing",
+              "d": "Data points that are duplicates"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 18,
+            "question": "What is data quality?",
+            "options": {
+              "a": "The accuracy and reliability of data",
+              "b": "None of the above",
+              "c": "The amount of data collected",
+              "d": "The speed of data processing"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 19,
+            "question": "What is data preprocessing?",
+            "options": {
+              "a": "None of the above",
+              "b": "Steps to prepare raw data for analysis",
+              "c": "Collecting data",
+              "d": "Storing data"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 20,
+            "question": "What is data integrity?",
+            "options": {
+              "a": "Ensuring data remains accurate and consistent",
+              "b": "None of the above",
+              "c": "The amount of data collected",
+              "d": "The speed of data processing"
+            },
+            "correct_option": "a"
+          }
+        ]
+      },
+      "chapter3": {
+        "questions": [
+          {
+            "id": 21,
+            "question": "What are descriptive statistics?",
+            "options": {
+              "a": "None of the above",
+              "b": "Summarizing data with numbers and visuals",
+              "c": "Forecasting what might happen",
+              "d": "Recommending actions based on data insights"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 22,
+            "question": "What is the mean?",
+            "options": {
+              "a": "The average value of a dataset",
+              "b": "None of the above",
+              "c": "The middle value in a sorted dataset",
+              "d": "The most frequent value in a dataset"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 23,
+            "question": "What is the median?",
+            "options": {
+              "a": "The middle value in a sorted dataset",
+              "b": "None of the above",
+              "c": "The average value of a dataset",
+              "d": "The most frequent value in a dataset"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 24,
+            "question": "What is the mode?",
+            "options": {
+              "a": "The most frequent value in a dataset",
+              "b": "None of the above",
+              "c": "The average value of a dataset",
+              "d": "The middle value in a sorted dataset"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 25,
+            "question": "What is the range?",
+            "options": {
+              "a": "None of the above",
+              "b": "The average value of a dataset",
+              "c": "The difference between the maximum and minimum values",
+              "d": "The most frequent value in a dataset"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 26,
+            "question": "What is variance?",
+            "options": {
+              "a": "A measure of how spread out data points are",
+              "b": "None of the above",
+              "c": "The average value of a dataset",
+              "d": "The most frequent value in a dataset"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 27,
+            "question": "What is standard deviation?",
+            "options": {
+              "a": "None of the above",
+              "b": "The square root of variance, showing data spread",
+              "c": "The average value of a dataset",
+              "d": "The most frequent value in a dataset"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 28,
+            "question": "What are probability distributions?",
+            "options": {
+              "a": "Models describing how data is distributed",
+              "b": "None of the above",
+              "c": "The average value of a dataset",
+              "d": "The most frequent value in a dataset"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 29,
+            "question": "What is statistical inference?",
+            "options": {
+              "a": "None of the above",
+              "b": "Drawing conclusions from sample data",
+              "c": "The average value of a dataset",
+              "d": "The most frequent value in a dataset"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 30,
+            "question": "What is hypothesis testing?",
+            "options": {
+              "a": "A method to test assumptions about data",
+              "b": "None of the above",
+              "c": "The average value of a dataset",
+              "d": "The most frequent value in a dataset"
+            },
+            "correct_option": "a"
+          }
+        ]
+      },
+      "chapter4": {
+        "questions": [
+          {
+            "id": 31,
+            "question": "What is data visualization?",
+            "options": {
+              "a": "None of the above",
+              "b": "Collecting data",
+              "c": "Representing data with visual elements",
+              "d": "Storing data"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 32,
+            "question": "What are charts?",
+            "options": {
+              "a": "A type of database",
+              "b": "Visual tools like bar or pie charts to show data",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 33,
+            "question": "What are graphs?",
+            "options": {
+              "a": "Visuals like line or scatter plots for data trends",
+              "b": "A type of database",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 34,
+            "question": "What is Matplotlib?",
+            "options": {
+              "a": "A type of database",
+              "b": "A Python library for creating visualizations",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 35,
+            "question": "What is Seaborn?",
+            "options": {
+              "a": "A Python library for enhanced statistical visualizations",
+              "b": "A type of database",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 36,
+            "question": "What are visualization principles?",
+            "options": {
+              "a": "None of the above",
+              "b": "Guidelines for effective data visuals",
+              "c": "A type of database",
+              "d": "A CSS framework"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 37,
+            "question": "What is responsive design in visualization?",
+            "options": {
+              "a": "Adapting visuals for different devices",
+              "b": "A type of database",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 38,
+            "question": "What is visual storytelling?",
+            "options": {
+              "a": "Using visuals to communicate insights",
+              "b": "A type of database",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 39,
+            "question": "What are visualization pitfalls?",
+            "options": {
+              "a": "Common mistakes like cluttered charts",
+              "b": "A type of database",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 40,
+            "question": "What is data presentation?",
+            "options": {
+              "a": "Displaying data clearly for understanding",
+              "b": "A type of database",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          }
+        ]
+      },
+      "chapter5": {
+        "questions": [
+          {
+            "id": 41,
+            "question": "What is exploratory data analysis?",
+            "options": {
+              "a": "None of the above",
+              "b": "Investigating data to find patterns and insights",
+              "c": "A type of database",
+              "d": "A CSS framework"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 42,
+            "question": "What is univariate analysis?",
+            "options": {
+              "a": "Combining multiple datasets into one",
+              "b": "Examining one variable at a time",
+              "c": "A method for web styling",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 43,
+            "question": "What is bivariate analysis?",
+            "options": {
+              "a": "A programming language",
+              "b": "Exploring relationships between two variables",
+              "c": "Storing data in a file",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 44,
+            "question": "What is multivariate analysis?",
+            "options": {
+              "a": "A type of chart",
+              "b": "Analyzing more than two variables together",
+              "c": "A database query",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 45,
+            "question": "What are patterns?",
+            "options": {
+              "a": "None of the above",
+              "b": "Recurring trends or structures in data",
+              "c": "A type of error",
+              "d": "A web development tool"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 46,
+            "question": "What are anomalies?",
+            "options": {
+              "a": "Unexpected or unusual data points",
+              "b": "None of the above",
+              "c": "A sorting algorithm",
+              "d": "A styling technique"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 47,
+            "question": "What are hypotheses?",
+            "options": {
+              "a": "None of the above",
+              "b": "Testable assumptions about data",
+              "c": "A type of visualization",
+              "d": "A file format"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 48,
+            "question": "What are assumptions?",
+            "options": {
+              "a": "Conditions assumed true for analysis",
+              "b": "None of the above",
+              "c": "A type of loop",
+              "d": "A data storage method"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 49,
+            "question": "What are EDA techniques?",
+            "options": {
+              "a": "None of the above",
+              "b": "Methods like plotting and summarizing data",
+              "c": "A type of server",
+              "d": "A programming paradigm"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 50,
+            "question": "What are data insights?",
+            "options": {
+              "a": "Valuable findings derived from data exploration",
+              "b": "None of the above",
+              "c": "A type of function",
+              "d": "A styling technique"
+            },
+            "correct_option": "a"
+          }
+        ]
+      },
+      "chapter6": {
+        "questions": [
+          {
+            "id": 51,
+            "question": "What is Pandas?",
+            "options": {
+              "a": "A type of chart",
+              "b": "A Python library for data manipulation and analysis",
+              "c": "A database system",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 52,
+            "question": "What are DataFrames?",
+            "options": {
+              "a": "Two-dimensional data structures in Pandas",
+              "b": "A sorting method",
+              "c": "A web framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 53,
+            "question": "What is Series?",
+            "options": {
+              "a": "One-dimensional data structures in Pandas",
+              "b": "A type of loop",
+              "c": "A styling tool",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 54,
+            "question": "What is data manipulation?",
+            "options": {
+              "a": "Changing or restructuring data with Pandas",
+              "b": "A type of error",
+              "c": "A network protocol",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 55,
+            "question": "What is missing data?",
+            "options": {
+              "a": "Handling absent values in datasets",
+              "b": "A visualization technique",
+              "c": "A file format",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 56,
+            "question": "What is merging datasets?",
+            "options": {
+              "a": "Combining multiple datasets into one",
+              "b": "A type of query",
+              "c": "A web development tool",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 57,
+            "question": "What is grouping?",
+            "options": {
+              "a": "None of the above",
+              "b": "Splitting data into groups based on criteria",
+              "c": "A type of chart",
+              "d": "A programming language"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 58,
+            "question": "What is aggregation?",
+            "options": {
+              "a": "Summarizing data (e.g., sum, average)",
+              "b": "None of the above",
+              "c": "A type of error",
+              "d": "A database system"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 59,
+            "question": "What is pivoting?",
+            "options": {
+              "a": "Reshaping data into a different format",
+              "b": "A sorting algorithm",
+              "c": "A web protocol",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 60,
+            "question": "What is data analysis?",
+            "options": {
+              "a": "Using Pandas to extract insights from data",
+              "b": "A type of function",
+              "c": "A styling technique",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          }
+        ]
+      },
+      "chapter7": {
+        "questions": [
+          {
+            "id": 61,
+            "question": "What is SQL?",
+            "options": {
+              "a": "A type of chart",
+              "b": "Structured Query Language for managing databases",
+              "c": "A web framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 62,
+            "question": "What is a SELECT statement?",
+            "options": {
+              "a": "A sorting method",
+              "b": "A command to retrieve data from a database",
+              "c": "A styling tool",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 63,
+            "question": "What is a WHERE clause?",
+            "options": {
+              "a": "Filters data based on conditions",
+              "b": "A type of loop",
+              "c": "A file format",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 64,
+            "question": "What is ORDER BY?",
+            "options": {
+              "a": "Sorts query results in a specified order",
+              "b": "A type of error",
+              "c": "A network protocol",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 65,
+            "question": "What are joins?",
+            "options": {
+              "a": "Combining data from multiple tables",
+              "b": "A visualization technique",
+              "c": "A web development tool",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 66,
+            "question": "What are aggregation functions?",
+            "options": {
+              "a": "Functions like SUM or COUNT for summarizing data",
+              "b": "A type of query",
+              "c": "A programming paradigm",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 67,
+            "question": "What is grouping?",
+            "options": {
+              "a": "Organizing data into groups with GROUP BY",
+              "b": "A type of chart",
+              "c": "A database system",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 68,
+            "question": "What are subqueries?",
+            "options": {
+              "a": "Nested queries within a larger query",
+              "b": "A sorting algorithm",
+              "c": "A web protocol",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 69,
+            "question": "What are databases?",
+            "options": {
+              "a": "Structured storage systems for data",
+              "b": "A type of function",
+              "c": "A styling technique",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 70,
+            "question": "What is querying?",
+            "options": {
+              "a": "The process of retrieving data with SQL",
+              "b": "A type of error",
+              "c": "A web framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          }
+        ]
+      },
+      "chapter8": {
+        "questions": [
+          {
+            "id": 71,
+            "question": "What is machine learning?",
+            "options": {
+              "a": "Using algorithms to learn from data",
+              "b": "A type of chart",
+              "c": "A database system",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 72,
+            "question": "What is supervised learning?",
+            "options": {
+              "a": "Training models with labeled data",
+              "b": "A sorting method",
+              "c": "A web framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 73,
+            "question": "What is unsupervised learning?",
+            "options": {
+              "a": "Finding patterns in unlabeled data",
+              "b": "A type of programming language",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 74,
+            "question": "What is classification?",
+            "options": {
+              "a": "Predicting categories (e.g., yes/no)",
+              "b": "A type of error",
+              "c": "A web framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 75,
+            "question": "What is regression?",
+            "options": {
+              "a": "Predicting continuous values (e.g., price)",
+              "b": "A visualization technique",
+              "c": "A web development tool",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 76,
+            "question": "What is model performance?",
+            "options": {
+              "a": "Evaluating how well a model predicts",
+              "b": "A type of query",
+              "c": "A programming paradigm",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 77,
+            "question": "What is linear regression?",
+            "options": {
+              "a": "A model for predicting linear relationships",
+              "b": "A type of chart",
+              "c": "A database system",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 78,
+            "question": "What are decision trees?",
+            "options": {
+              "a": "A model using tree-like decision paths",
+              "b": "A sorting algorithm",
+              "c": "A web protocol",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 79,
+            "question": "What is k-means clustering?",
+            "options": {
+              "a": "An algorithm to group data into clusters",
+              "b": "A type of function",
+              "c": "A styling technique",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 80,
+            "question": "What is predictive analytics?",
+            "options": {
+              "a": "Using models to forecast outcomes",
+              "b": "A type of error",
+              "c": "A web framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          }
+        ]
+      },
+      "chapter9": {
+        "questions": [
+          {
+            "id": 81,
+            "question": "What are business questions?",
+            "options": {
+              "a": "Specific problems analytics aims to solve",
+              "b": "A type of chart",
+              "c": "A database system",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 82,
+            "question": "What is communication?",
+            "options": {
+              "a": "Sharing insights effectively with stakeholders",
+              "b": "A sorting method",
+              "c": "A web framework",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 83,
+            "question": "What are reports?",
+            "options": {
+              "a": "Documents summarizing analysis results",
+              "b": "A type of loop",
+              "c": "A file format",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 84,
+            "question": "What are dashboards?",
+            "options": {
+              "a": "Interactive visual displays of data",
+              "b": "A type of error",
+              "c": "A network protocol",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 85,
+            "question": "What is ethics in data analytics?",
+            "options": {
+              "a": "Moral principles guiding data use",
+              "b": "A visualization technique",
+              "c": "A web development tool",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 86,
+            "question": "What is privacy?",
+            "options": {
+              "a": "Protecting personal data from misuse",
+              "b": "A type of query",
+              "c": "A programming paradigm",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 87,
+            "question": "What is bias?",
+            "options": {
+              "a": "Unfair skew in data or analysis",
+              "b": "A type of chart",
+              "c": "A database system",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 88,
+            "question": "What is data responsibility?",
+            "options": {
+              "a": "Using data ethically and accurately",
+              "b": "A sorting algorithm",
+              "c": "A web protocol",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          }
+        ]
+      }
+    }
+  }
+}

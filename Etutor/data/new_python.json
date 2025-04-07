@@ -1,0 +1,1032 @@
+{
+  "python": {
+    "chapters": {
+      "chapter1": {
+        "questions": [
+          {
+            "id": 1,
+            "question": "What are variables in Python?",
+            "options": {
+              "a": "Functions that perform operations",
+              "b": "Containers that store data values in memory",
+              "c": "Types of data like integers and strings",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 2,
+            "question": "What are data types?",
+            "options": {
+              "a": "Functions that manipulate data",
+              "b": "None of the above",
+              "c": "Categories of data like integers, floats, strings, and booleans",
+              "d": "Variables that store data"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 3,
+            "question": "What is an integer?",
+            "options": {
+              "a": "Sequences of characters",
+              "b": "Numbers with decimal points",
+              "c": "None of the above",
+              "d": "Whole numbers without decimal points"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 4,
+            "question": "What is a float?",
+            "options": {
+              "a": "Numbers with decimal points",
+              "b": "Whole numbers without decimal points",
+              "c": "A type of string",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 5,
+            "question": "What are strings?",
+            "options": {
+              "a": "Whole numbers",
+              "b": "Sequences of characters used for text",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 6,
+            "question": "What are booleans?",
+            "options": {
+              "a": "Strings",
+              "b": "None of the above",
+              "c": "Values representing True or False",
+              "d": "Whole numbers"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 7,
+            "question": "What are arithmetic operations?",
+            "options": {
+              "a": "Operations on strings",
+              "b": "Data type conversions",
+              "c": "None of the above",
+              "d": "Mathematical operations like addition (+), subtraction (-), multiplication (*), and division (/)"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 8,
+            "question": "What is string concatenation?",
+            "options": {
+              "a": "Adding numbers together",
+              "b": "Joining two or more strings into one using the + operator",
+              "c": "Combining data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 9,
+            "question": "What is the input function?",
+            "options": {
+              "a": "A function that displays output",
+              "b": "A function that manipulates strings",
+              "c": "None of the above",
+              "d": "A function (input()) that takes user input from the keyboard"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 10,
+            "question": "What is the print function?",
+            "options": {
+              "a": "A function (print()) that displays output to the screen",
+              "b": "A function that takes input from the user",
+              "c": "A function that manipulates data",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          }
+        ]
+      },
+      "chapter2": {
+        "questions": [
+          {
+            "id": 11,
+            "question": "What are conditional statements?",
+            "options": {
+              "a": "Loops that repeat code",
+              "b": "Structures that execute code based on conditions (e.g., if, elif, else)",
+              "c": "Functions that return values",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 12,
+            "question": "What does an if statement do?",
+            "options": {
+              "a": "Checks multiple conditions",
+              "b": "Always executes a block of code",
+              "c": "Executes a block of code if a condition is true",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 13,
+            "question": "What is an elif statement?",
+            "options": {
+              "a": "Always executes a block of code",
+              "b": "Checks an additional condition if the previous if condition is false",
+              "c": "Executes a block of code if all prior conditions are true",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 14,
+            "question": "What does an else statement do?",
+            "options": {
+              "a": "Checks if a condition is true",
+              "b": "Always executes a block of code",
+              "c": "None of the above",
+              "d": "Executes a block of code if all prior conditions are false"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 15,
+            "question": "What is a for loop?",
+            "options": {
+              "a": "A loop that executes once",
+              "b": "A loop that repeats indefinitely",
+              "c": "A loop that iterates over a sequence (e.g., list, range)",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 16,
+            "question": "What is a while loop?",
+            "options": {
+              "a": "A loop that repeats as long as a condition is true",
+              "b": "A loop that executes once",
+              "c": "A loop that iterates over a sequence",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 17,
+            "question": "What does a break statement do?",
+            "options": {
+              "a": "Pauses the loop",
+              "b": "Continues to the next iteration",
+              "c": "None of the above",
+              "d": "Exits a loop immediately"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 18,
+            "question": "What does a continue statement do?",
+            "options": {
+              "a": "Skips the current iteration and moves to the next one",
+              "b": "Exits the loop",
+              "c": "Pauses the loop",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 19,
+            "question": "What is control flow?",
+            "options": {
+              "a": "The way data is stored",
+              "b": "The order in which statements are executed in a program",
+              "c": "The way functions are defined",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 20,
+            "question": "What is iteration?",
+            "options": {
+              "a": "The process of defining functions",
+              "b": "The process of storing data",
+              "c": "None of the above",
+              "d": "The process of repeating a set of instructions"
+            },
+            "correct_option": "d"
+          }
+        ]
+      },
+      "chapter3": {
+        "questions": [
+          {
+            "id": 21,
+            "question": "What are lists in Python?",
+            "options": {
+              "a": "Unordered collections of unique items",
+              "b": "Immutable collections of items",
+              "c": "Ordered, mutable collections of items",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 22,
+            "question": "What are tuples?",
+            "options": {
+              "a": "Ordered, immutable collections of items",
+              "b": "Ordered, mutable collections of items",
+              "c": "Unordered collections of key-value pairs",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 23,
+            "question": "What are dictionaries?",
+            "options": {
+              "a": "Ordered collections of items",
+              "b": "Unordered collections of key-value pairs",
+              "c": "Immutable collections of items",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 24,
+            "question": "What are sets?",
+            "options": {
+              "a": "Ordered collections of items",
+              "b": "Immutable collections of items",
+              "c": "None of the above",
+              "d": "Unordered collections of unique items"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 25,
+            "question": "What are list operations?",
+            "options": {
+              "a": "Actions on immutable collections",
+              "b": "Actions like adding (append), removing (remove), and accessing (indexing) list elements",
+              "c": "Actions on key-value pairs",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 26,
+            "question": "What are tuple operations?",
+            "options": {
+              "a": "Actions on mutable collections",
+              "b": "Actions on key-value pairs",
+              "c": "Actions like accessing elements, but not modifying (since tuples are immutable)",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 27,
+            "question": "What are dictionary operations?",
+            "options": {
+              "a": "Actions like adding keys, accessing values, and removing key-value pairs",
+              "b": "Actions on immutable collections",
+              "c": "Actions on unique items",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 28,
+            "question": "What are set operations?",
+            "options": {
+              "a": "Actions on key-value pairs",
+              "b": "Actions on mutable collections",
+              "c": "None of the above",
+              "d": "Actions like union, intersection, and difference between sets"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 29,
+            "question": "What is list comprehension?",
+            "options": {
+              "a": "A way to create dictionaries",
+              "b": "A method for accessing elements",
+              "c": "A concise way to create lists using a single line of code",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 30,
+            "question": "What is a data structure?",
+            "options": {
+              "a": "A type of variable",
+              "b": "A way to organize and store data efficiently",
+              "c": "A function definition",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter4": {
+        "questions": [
+          {
+            "id": 31,
+            "question": "What are functions in Python?",
+            "options": {
+              "a": "Variables that store data",
+              "b": "Reusable blocks of code that perform specific tasks",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 32,
+            "question": "What are parameters?",
+            "options": {
+              "a": "Return values from functions",
+              "b": "Data types",
+              "c": "Variables defined in a function to receive input",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 33,
+            "question": "What are return values?",
+            "options": {
+              "a": "Parameters of a function",
+              "b": "Data a function sends back to the caller using return",
+              "c": "Input values for functions",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 34,
+            "question": "What is variable scope?",
+            "options": {
+              "a": "The type of variable",
+              "b": "The value of a variable",
+              "c": "None of the above",
+              "d": "The region of code where a variable is accessible"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 35,
+            "question": "What are default parameters?",
+            "options": {
+              "a": "Parameters that cannot be changed",
+              "b": "Function parameters with predefined values if no argument is provided",
+              "c": "Parameters that are always required",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 36,
+            "question": "What are keyword arguments?",
+            "options": {
+              "a": "Arguments that cannot be changed",
+              "b": "Arguments that are always required",
+              "c": "Arguments passed to a function by explicitly naming the parameter",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 37,
+            "question": "What are args?",
+            "options": {
+              "a": "A syntax (*args) for passing a variable number of positional arguments",
+              "b": "A type of variable",
+              "c": "A return value",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 38,
+            "question": "What are kwargs?",
+            "options": {
+              "a": "A return value",
+              "b": "A type of variable",
+              "c": "None of the above",
+              "d": "A syntax (**kwargs) for passing a variable number of keyword arguments"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 39,
+            "question": "What are lambda functions?",
+            "options": {
+              "a": "Functions that cannot return values",
+              "b": "Small, anonymous functions defined with the lambda keyword",
+              "c": "Functions that are always required",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 40,
+            "question": "What is a function call?",
+            "options": {
+              "a": "Defining a function",
+              "b": "Returning a value from a function",
+              "c": "Invoking a function to execute its code",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          }
+        ]
+      },
+      "chapter5": {
+        "questions": [
+          {
+            "id": 41,
+            "question": "What are classes in Python?",
+            "options": {
+              "a": "Instances of a function",
+              "b": "Blueprints for creating objects with shared properties and behaviors",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 42,
+            "question": "What are objects?",
+            "options": {
+              "a": "Classes that cannot be instantiated",
+              "b": "Data types",
+              "c": "Instances of a class that hold data and methods",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 43,
+            "question": "What are attributes?",
+            "options": {
+              "a": "Functions defined within a class",
+              "b": "Data stored in an object or class (variables)",
+              "c": "Classes that cannot be instantiated",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 44,
+            "question": "What are methods?",
+            "options": {
+              "a": "Variables defined in a class",
+              "b": "Data types",
+              "c": "None of the above",
+              "d": "Functions defined within a class that operate on objects"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 45,
+            "question": "What is encapsulation?",
+            "options": {
+              "a": "The process of creating classes",
+              "b": "Bundling data and methods together, restricting direct access to some components",
+              "c": "The process of defining functions",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 46,
+            "question": "What is inheritance?",
+            "options": {
+              "a": "The process of creating objects",
+              "b": "The process of defining functions",
+              "c": "A mechanism where a class inherits properties from another class",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 47,
+            "question": "What is polymorphism?",
+            "options": {
+              "a": "The process of creating classes",
+              "b": "The ability of different classes to be treated as instances of a common superclass",
+              "c": "The process of defining functions",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 48,
+            "question": "What are instance variables?",
+            "options": {
+              "a": "Variables that cannot be changed",
+              "b": "Variables shared across all instances of a class",
+              "c": "None of the above",
+              "d": "Variables unique to each object of a class"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 49,
+            "question": "What are class variables?",
+            "options": {
+              "a": "Variables unique to each object of a class",
+              "b": "Variables shared across all instances of a class",
+              "c": "Variables that cannot be changed",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 50,
+            "question": "What is OOP?",
+            "options": {
+              "a": "A type of variable",
+              "b": "Object-oriented programming, a paradigm using classes and objects",
+              "c": "A function definition",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter6": {
+        "questions": [
+          {
+            "id": 51,
+            "question": "What are exceptions?",
+            "options": {
+              "a": "Functions that return values",
+              "b": "Errors that occur during program execution",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 52,
+            "question": "What is a try block?",
+            "options": {
+              "a": "A block that always executes",
+              "b": "A block that handles errors",
+              "c": "Code block where exceptions might occur",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 53,
+            "question": "What is an except block?",
+            "options": {
+              "a": "A block that raises exceptions",
+              "b": "Code block that handles a specific exception",
+              "c": "A block that always executes",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 54,
+            "question": "What is a finally block?",
+            "options": {
+              "a": "A block that handles errors",
+              "b": "A block that always executes",
+              "c": "None of the above",
+              "d": "Code block that runs regardless of whether an exception occurred"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 55,
+            "question": "What does raising exceptions mean?",
+            "options": {
+              "a": "Handling exceptions",
+              "b": "Manually triggering an exception with the raise keyword",
+              "c": "Ignoring exceptions",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 56,
+            "question": "What are custom exceptions?",
+            "options": {
+              "a": "Built-in exceptions",
+              "b": "Exceptions that cannot be handled",
+              "c": "User-defined exception classes for specific error conditions",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 57,
+            "question": "What is error handling?",
+            "options": {
+              "a": "The process of defining functions",
+              "b": "Techniques to manage and respond to exceptions",
+              "c": "The process of creating classes",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 58,
+            "question": "What are exception types?",
+            "options": {
+              "a": "Types of functions",
+              "b": "Specific categories of errors like ValueError or TypeError",
+              "c": "Types of variables",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 59,
+            "question": "What is try-except?",
+            "options": {
+              "a": "A type of variable",
+              "b": "A function definition",
+              "c": "A structure combining try and except blocks for error handling",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 60,
+            "question": "What is robustness?",
+            "options": {
+              "a": "The process of defining functions",
+              "b": "The ability of a program to handle errors gracefully",
+              "c": "The process of creating classes",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter7": {
+        "questions": [
+          {
+            "id": 61,
+            "question": "What is file handling?",
+            "options": {
+              "a": "The process of defining functions",
+              "b": "Operations to read from and write to files",
+              "c": "The process of creating classes",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 62,
+            "question": "What is the open function?",
+            "options": {
+              "a": "A function to close a file",
+              "b": "A function (open()) to access a file",
+              "c": "A function to delete a file",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 63,
+            "question": "What is read mode?",
+            "options": {
+              "a": "File mode for writing to a file",
+              "b": "File mode ('r') for reading file contents",
+              "c": "File mode for deleting a file",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 64,
+            "question": "What is write mode?",
+            "options": {
+              "a": "File mode for reading a file",
+              "b": "File mode ('w') for writing to a file",
+              "c": "File mode for deleting a file",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 65,
+            "question": "What is the close function?",
+            "options": {
+              "a": "A function to open a file",
+              "b": "A method (close()) to release file resources",
+              "c": "A function to read a file",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 66,
+            "question": "What is the with statement?",
+            "options": {
+              "a": "A statement to open files",
+              "b": "A context manager that automatically closes files",
+              "c": "A statement to read files",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 67,
+            "question": "What are text files?",
+            "options": {
+              "a": "Files storing binary data",
+              "b": "Files that cannot be opened",
+              "c": "Files storing readable character data",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 68,
+            "question": "What are binary files?",
+            "options": {
+              "a": "Files storing readable character data",
+              "b": "Files that cannot be opened",
+              "c": "Files storing data in a non-text format (e.g., images)",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 69,
+            "question": "What are CSV files?",
+            "options": {
+              "a": "Files storing binary data",
+              "b": "Comma-separated value files for structured data",
+              "c": "Files that cannot be opened",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 70,
+            "question": "What are JSON files?",
+            "options": {
+              "a": "Files storing binary data",
+              "b": "Files that cannot be opened",
+              "c": "Files storing data in JavaScript Object Notation format",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          }
+        ]
+      },
+      "chapter8": {
+        "questions": [
+          {
+            "id": 71,
+            "question": "What are modules in Python?",
+            "options": {
+              "a": "Collections of classes",
+              "b": "Individual Python files containing reusable code",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 72,
+            "question": "What are packages?",
+            "options": {
+              "a": "Individual Python files",
+              "b": "Collections of modules organized in directories",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 73,
+            "question": "What is the import statement?",
+            "options": {
+              "a": "A statement to define functions",
+              "b": "A statement (import) to access code from modules or packages",
+              "c": "A statement to create classes",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 74,
+            "question": "What is the standard library?",
+            "options": {
+              "a": "A collection of user-defined modules",
+              "b": "A set of built-in Python modules (e.g., math, os)",
+              "c": "A type of variable",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 75,
+            "question": "What are third-party packages?",
+            "options": {
+              "a": "Built-in Python modules",
+              "b": "External libraries installed via pip (e.g., requests)",
+              "c": "User-defined modules",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 76,
+            "question": "What is pip?",
+            "options": {
+              "a": "A type of variable",
+              "b": "A package manager for installing Python libraries",
+              "c": "A function definition",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 77,
+            "question": "What is module creation?",
+            "options": {
+              "a": "Creating classes",
+              "b": "Writing a .py file to define reusable code",
+              "c": "Defining functions",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 78,
+            "question": "What is package organization?",
+            "options": {
+              "a": "Creating individual files",
+              "b": "Structuring multiple modules into a directory with an __init__.py file",
+              "c": "Defining functions",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 79,
+            "question": "What is code reuse?",
+            "options": {
+              "a": "Creating new code every time",
+              "b": "Using modules to avoid rewriting code",
+              "c": "Defining functions",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 80,
+            "question": "What is a namespace?",
+            "options": {
+              "a": "A type of variable",
+              "b": "A system to organize and avoid naming conflicts in code",
+              "c": "A function definition",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter9": {
+        "questions": [
+          {
+            "id": 81,
+            "question": "What are decorators?",
+            "options": {
+              "a": "Classes that cannot be instantiated",
+              "b": "Functions that modify or enhance other functions",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 82,
+            "question": "What are generators?",
+            "options": {
+              "a": "Functions that return all values at once",
+              "b": "Functions that yield values one at a time, saving memory",
+              "c": "Functions that cannot return values",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 83,
+            "question": "What are iterators?",
+            "options": {
+              "a": "Functions that return values",
+              "b": "Objects that enable iteration over a sequence",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 84,
+            "question": "What are context managers?",
+            "options": {
+              "a": "Functions that return values",
+              "b": "Tools (e.g., with statement) for resource management",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 85,
+            "question": "What are regular expressions?",
+            "options": {
+              "a": "Functions that return values",
+              "b": "Patterns for matching and manipulating strings",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 86,
+            "question": "What is functional programming?",
+            "options": {
+              "a": "A type of variable",
+              "b": "A style using pure functions and avoiding state",
+              "c": "A function definition",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 87,
+            "question": "What is NumPy?",
+            "options": {
+              "a": "A type of variable",
+              "b": "A library for numerical computations with arrays",
+              "c": "A function definition",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 88,
+            "question": "What is Pandas?",
+            "options": {
+              "a": "A type of variable",
+              "b": "A library for data manipulation and analysis",
+              "c": "A function definition",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 89,
+            "question": "What is pattern matching?",
+            "options": {
+              "a": "A type of variable",
+              "b": "Using regex to find specific text patterns",
+              "c": "A function definition",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 90,
+            "question": "What are advanced libraries?",
+            "options": {
+              "a": "Basic libraries for Python",
+              "b": "Specialized tools like NumPy and Pandas for advanced tasks",
+              "c": "Data types",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      }
+    }
+  }
+}
