@@ -1,0 +1,74 @@
+/* Test page styling */
+
+/* Question type badge */
+.question-type-badge {
+    float: right;
+    margin-left: 10px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+/* Highlight fill-in-blank blanks */
+.question-card .fill-blank .card-title {
+    font-weight: 500;
+}
+
+.question-card .card-title {
+    position: relative;
+    padding-right: 110px; /* Space for the badge */
+}
+
+/* Different styling for different question types */
+.question-card[data-question-type="multiple_choice"] {
+    border-left: 4px solid var(--bs-primary);
+}
+
+.question-card[data-question-type="true_false"] {
+    border-left: 4px solid var(--bs-success);
+}
+
+.question-card[data-question-type="fill_blank"] {
+    border-left: 4px solid var(--bs-info);
+}
+
+/* True/False styling */
+.true-false-option {
+    padding: 10px 15px;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+}
+
+.true-false-option:hover {
+    background-color: rgba(var(--bs-primary-rgb), 0.05);
+}
+
+.true-false-option.selected {
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    border-color: var(--bs-primary);
+}
+
+/* Highlight selected options */
+.question-option.selected {
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    border-radius: 8px;
+}
+
+/* Fill in blank emphasis */
+.fill-blank-underscore {
+    display: inline-block;
+    border-bottom: 2px solid var(--bs-info);
+    min-width: 120px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--bs-info);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .true-false-option {
+        margin-bottom: 10px;
+    }
+}

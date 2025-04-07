@@ -1,0 +1,334 @@
+{
+    "python": {
+      "1": {
+        "title": "Python Fundamentals 1",
+        "concepts": [
+          {
+            "name": "Variables",
+            "description": "Variables are containers for storing data values. In Python, variables are created when you assign a value to them, and they don't need to be declared with a specific type."
+          },
+          {
+            "name": "Data Types",
+            "description": "Python has several built-in data types including integers, floating-point numbers, strings, and booleans. The type() function can be used to determine a variable's type."
+          },
+          {
+            "name": "Numbers",
+            "description": "Python supports integers (whole numbers), floating-point numbers (decimal numbers), and complex numbers. Arithmetic operations include addition, subtraction, multiplication, division, modulus, exponentiation, and floor division."
+          },
+          {
+            "name": "Strings",
+            "description": "Strings in Python are sequences of characters enclosed in quotes (single, double, or triple). Python provides many methods for string manipulation like concatenation, slicing, and formatting."
+          },
+          {
+            "name": "Type Conversion",
+            "description": "Python allows conversion between different data types using functions like int(), float(), str(), etc. This is called type casting or type conversion."
+          },
+          {
+            "name": "Input/Output",
+            "description": "The input() function allows user input, while print() is used to display output to the console. The input() function always returns a string, so type conversion may be needed."
+          },
+          {
+            "name": "Comments",
+            "description": "Comments in Python start with # and extend to the end of the line. Python also supports multi-line comments using triple quotes."
+          },
+          {
+            "name": "Operators",
+            "description": "Python supports arithmetic operators (+, -, *, /, %, **, //), comparison operators (==, !=, >, <, >=, <=), assignment operators (=, +=, -=, etc.), logical operators (and, or, not), identity operators (is, is not), and membership operators (in, not in)."
+          },
+          {
+            "name": "Indentation",
+            "description": "Python uses indentation (whitespace at the beginning of a line) to define scope in the code. Indentation is used to define blocks of code such as loops, functions, and if statements."
+          },
+          {
+            "name": "Basic Syntax",
+            "description": "Python syntax emphasizes readability. Statements are terminated by a newline, multiple statements can be on one line separated by semicolons, and line continuation is done with a backslash."
+          },
+          {
+            "name": "Print Formatting",
+            "description": "Python offers several ways to format strings for output, including f-strings, the format() method, and the % operator."
+          },
+          {
+            "name": "Variables Naming Rules",
+            "description": "Variable names must start with a letter or underscore, can contain numbers but not start with them, are case-sensitive, and cannot be Python keywords."
+          },
+          {
+            "name": "Assignment Operations",
+            "description": "Python allows multiple assignments in a single statement, unpacking sequences into multiple variables, and using augmented assignment operators."
+          },
+          {
+            "name": "Boolean Logic",
+            "description": "Boolean values in Python are True and False. Boolean operations include and, or, not, and comparison operations return boolean results."
+          },
+          {
+            "name": "Basic Error Types",
+            "description": "Common errors in Python include SyntaxError, NameError, TypeError, and ValueError. Understanding error messages helps debug programs."
+          }
+        ]
+      },
+      "2": {
+        "title": "Python Fundamentals 2",
+        "concepts": [
+          {
+            "name": "Conditional Statements",
+            "description": "Conditional statements like if, elif, and else allow programs to execute code blocks based on specific conditions, enabling decision-making in code."
+          },
+          {
+            "name": "if Statement",
+            "description": "The if statement executes a block of code if a specified condition is true. It can be used alone or with elif and else statements."
+          },
+          {
+            "name": "elif Statement",
+            "description": "The elif (else if) statement checks additional conditions after an if statement, allowing for multiple conditions to be checked in sequence."
+          },
+          {
+            "name": "else Statement",
+            "description": "The else statement executes a block of code if all preceding if and elif conditions are false, serving as a default case."
+          },
+          {
+            "name": "Nested Conditionals",
+            "description": "Conditional statements can be nested inside other conditional statements, creating more complex decision structures."
+          },
+          {
+            "name": "For Loops",
+            "description": "For loops in Python iterate over sequences (like lists, tuples, strings) or other iterable objects, executing a block of code for each item."
+          },
+          {
+            "name": "While Loops",
+            "description": "While loops execute a block of code as long as a condition is true, potentially creating infinite loops if the condition never becomes false."
+          },
+          {
+            "name": "Loop Control Statements",
+            "description": "Python provides break, continue, and else clauses for loops to control execution flow within loops."
+          },
+          {
+            "name": "Break Statement",
+            "description": "The break statement immediately terminates the loop it's in, skipping the else clause if present, and is often used in search algorithms."
+          },
+          {
+            "name": "Continue Statement",
+            "description": "The continue statement skips the rest of the code inside the loop for the current iteration and moves to the next iteration."
+          },
+          {
+            "name": "Loop with else Clause",
+            "description": "Python allows an else clause after loops that executes when the loop completes normally (not terminated by a break)."
+          },
+          {
+            "name": "Range Function",
+            "description": "The range() function generates a sequence of numbers, commonly used with for loops to repeat actions a specific number of times."
+          },
+          {
+            "name": "Nested Loops",
+            "description": "Loops can be nested inside other loops, creating multiple levels of iteration for processing multi-dimensional data structures."
+          },
+          {
+            "name": "Infinite Loops",
+            "description": "An infinite loop continues indefinitely, usually created when a condition in a while loop never becomes false. They can be useful but must be terminated properly."
+          },
+          {
+            "name": "Loop Performance",
+            "description": "Different loop structures have different performance characteristics in Python. List comprehensions and built-in functions often perform better than explicit loops."
+          }
+        ]
+      },
+      "3": {
+        "title": "Python Fundamentals 3",
+        "concepts": [
+          {
+            "name": "Lists",
+            "description": "Lists are ordered, mutable collections that can contain elements of different types. They're created with square brackets and support operations like indexing, slicing, and methods like append() and remove()."
+          },
+          {
+            "name": "Tuples",
+            "description": "Tuples are ordered, immutable collections, similar to lists but created with parentheses. Their immutability makes them faster and safer for data that shouldn't change."
+          },
+          {
+            "name": "Dictionaries",
+            "description": "Dictionaries are unordered collections of key-value pairs, created with curly braces. Keys must be immutable and unique, and values are accessed using their corresponding keys."
+          },
+          {
+            "name": "Sets",
+            "description": "Sets are unordered collections of unique elements, created with curly braces or the set() function. They support mathematical operations like union, intersection, and difference."
+          },
+          {
+            "name": "List Comprehensions",
+            "description": "List comprehensions provide a concise way to create lists based on existing lists or other iterables, combining a for loop and conditional logic in a single line."
+          },
+          {
+            "name": "List Methods",
+            "description": "Python lists have built-in methods like append(), extend(), insert(), remove(), pop(), clear(), index(), count(), sort(), and reverse() for various operations."
+          },
+          {
+            "name": "Dictionary Methods",
+            "description": "Dictionaries have methods like keys(), values(), items(), get(), update(), pop(), and clear() to manipulate and access their contents."
+          },
+          {
+            "name": "Set Methods",
+            "description": "Sets provide methods like add(), remove(), discard(), union(), intersection(), difference(), and symmetric_difference() for set operations."
+          },
+          {
+            "name": "Nested Data Structures",
+            "description": "Python data structures can be nested within each other, creating complex structures like lists of dictionaries or dictionaries with tuple keys."
+          },
+          {
+            "name": "Slicing",
+            "description": "Slicing extracts portions of sequences using the notation [start:stop:step], working on lists, tuples, and strings to create new objects containing selected elements."
+          },
+          {
+            "name": "Copying Objects",
+            "description": "Python provides different ways to copy objects, including shallow copies (copy()) and deep copies (deepcopy()), which handle nested objects differently."
+          },
+          {
+            "name": "Dictionary Comprehensions",
+            "description": "Similar to list comprehensions, dictionary comprehensions create dictionaries using concise expressions, transforming and filtering data in a single line."
+          },
+          {
+            "name": "Set Comprehensions",
+            "description": "Set comprehensions create sets using a syntax similar to list comprehensions, providing a concise way to generate sets from other iterables."
+          },
+          {
+            "name": "Mapping and Filtering",
+            "description": "Python's map() and filter() functions apply a function to each element in an iterable or filter elements based on a function, respectively."
+          },
+          {
+            "name": "Sequence Unpacking",
+            "description": "Python allows unpacking sequences into multiple variables in a single assignment statement, making it easy to extract elements from sequences."
+          }
+        ]
+      }
+    },
+    "data_analytics": {
+      "1": {
+        "title": "Data Analytics Fundamentals 1",
+        "concepts": [
+          {
+            "name": "Data Analytics",
+            "description": "Data analytics is the process of examining data sets to draw conclusions about the information they contain, often with the aid of specialized systems and software."
+          },
+          {
+            "name": "Data Types",
+            "description": "Data types in analytics include numerical (discrete and continuous), categorical (nominal and ordinal), and temporal (date/time) data, each requiring different analytical approaches."
+          },
+          {
+            "name": "Analytics Lifecycle",
+            "description": "The data analytics lifecycle includes stages like data collection, cleaning, processing, analysis, visualization, and interpretation to derive meaningful insights."
+          },
+          {
+            "name": "Descriptive Analytics",
+            "description": "Descriptive analytics examines historical data to understand what happened in the past, providing context through summarization and visualization."
+          },
+          {
+            "name": "Diagnostic Analytics",
+            "description": "Diagnostic analytics investigates why something happened by examining data in depth, often using techniques like drill-down, data discovery, and correlations."
+          },
+          {
+            "name": "Predictive Analytics",
+            "description": "Predictive analytics uses historical data, statistical algorithms, and machine learning to identify the likelihood of future outcomes."
+          },
+          {
+            "name": "Prescriptive Analytics",
+            "description": "Prescriptive analytics suggests actions to take based on predictions, using optimization techniques and decision theory to recommend the best course of action."
+          },
+          {
+            "name": "Data Sources",
+            "description": "Data sources in analytics include structured (databases, spreadsheets), semi-structured (JSON, XML), and unstructured (text, images, videos) data from internal and external sources."
+          },
+          {
+            "name": "Data Quality",
+            "description": "Data quality refers to the accuracy, completeness, consistency, timeliness, and relevance of data, directly impacting the reliability of analytical results."
+          },
+          {
+            "name": "Data Governance",
+            "description": "Data governance encompasses policies, procedures, and standards to ensure data integrity, security, and ethical use throughout an organization."
+          },
+          {
+            "name": "Analytics Tools",
+            "description": "Analytics tools include spreadsheets (Excel), statistical software (SPSS, SAS), programming languages (Python, R), and specialized business intelligence platforms (Tableau, Power BI)."
+          },
+          {
+            "name": "Key Performance Indicators",
+            "description": "KPIs are measurable values that demonstrate how effectively an organization is achieving key business objectives, serving as targets for analytics initiatives."
+          },
+          {
+            "name": "Data-Driven Decision Making",
+            "description": "Data-driven decision making involves using facts, metrics, and data analysis instead of intuition or observation to guide strategic business decisions."
+          },
+          {
+            "name": "Business Intelligence",
+            "description": "Business intelligence encompasses strategies and technologies used for data analysis of business information, providing historical, current, and predictive views of business operations."
+          },
+          {
+            "name": "Analytics Roles",
+            "description": "Analytics roles include data analysts, business analysts, data scientists, data engineers, and analytics managers, each with specific responsibilities in the analytics ecosystem."
+          }
+        ]
+      }
+    },
+    "full_stack": {
+      "1": {
+        "title": "Full Stack Fundamentals 1",
+        "concepts": [
+          {
+            "name": "Full Stack Development",
+            "description": "Full stack development involves working with both client-side (front-end) and server-side (back-end) technologies to build complete web applications."
+          },
+          {
+            "name": "Client-Server Architecture",
+            "description": "The client-server model is a distributed application structure that partitions tasks between providers of a resource or service (servers) and service requesters (clients)."
+          },
+          {
+            "name": "Frontend Development",
+            "description": "Frontend development focuses on what users see and interact with, involving HTML, CSS, and JavaScript to create user interfaces and experiences."
+          },
+          {
+            "name": "Backend Development",
+            "description": "Backend development involves server-side logic, databases, and application APIs that power the frontend, typically using languages like Python, Java, JavaScript (Node.js), or PHP."
+          },
+          {
+            "name": "HTTP Protocol",
+            "description": "HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the web, defining how messages are formatted and transmitted between clients and servers."
+          },
+          {
+            "name": "RESTful APIs",
+            "description": "REST (Representational State Transfer) is an architectural style for designing networked applications, using HTTP methods explicitly and stateless operations."
+          },
+          {
+            "name": "Domain Name System",
+            "description": "DNS (Domain Name System) translates human-readable domain names to IP addresses, allowing users to access websites without knowing the server's numerical address."
+          },
+          {
+            "name": "Web Hosting",
+            "description": "Web hosting is a service that allows individuals and organizations to make their websites accessible via the World Wide Web, providing server space, connectivity, and related services."
+          },
+          {
+            "name": "Development Stack",
+            "description": "A development stack is a set of software subsystems or components needed to create a complete platform for software development, like LAMP (Linux, Apache, MySQL, PHP) or MEAN (MongoDB, Express.js, Angular, Node.js)."
+          },
+          {
+            "name": "Version Control Systems",
+            "description": "Version control systems like Git track and manage changes to code, allowing developers to collaborate, track history, and maintain different versions of their applications."
+          },
+          {
+            "name": "Responsive Design",
+            "description": "Responsive design ensures web applications adapt to different screen sizes and devices, providing optimal viewing experience across desktop, tablet, and mobile."
+          },
+          {
+            "name": "Web Security",
+            "description": "Web security involves protecting websites and web applications from security threats like cross-site scripting (XSS), SQL injection, cross-site request forgery (CSRF), and data breaches."
+          },
+          {
+            "name": "CRUD Operations",
+            "description": "CRUD (Create, Read, Update, Delete) operations are the four basic functions of persistent storage, representing the standard database operations that most applications implement."
+          },
+          {
+            "name": "MVC Architecture",
+            "description": "MVC (Model-View-Controller) is a software architectural pattern that separates an application into three main logical components: the model (data), the view (user interface), and the controller (logic)."
+          },
+          {
+            "name": "API Endpoints",
+            "description": "API endpoints are the specific URLs where an API receives requests about a specific resource or set of resources, defining how clients can interact with the server."
+          }
+        ]
+      }
+    }
+  }
+  

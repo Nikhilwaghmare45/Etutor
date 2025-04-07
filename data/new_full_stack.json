@@ -1,0 +1,1032 @@
+{
+  "full_stack": {
+    "chapters": {
+      "chapter1": {
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is full stack development?",
+            "options": {
+              "a": "Only working on the front-end",
+              "b": "Building both front-end and back-end components of a web application",
+              "c": "Only working on the back-end",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 2,
+            "question": "What is client-server architecture?",
+            "options": {
+              "a": "A programming language",
+              "b": "A type of database",
+              "c": "A model where clients request services and servers provide them",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 3,
+            "question": "What does HTTP stand for?",
+            "options": {
+              "a": "HyperText Transmission Protocol",
+              "b": "None of the above",
+              "c": "HyperText Transfer Process",
+              "d": "HyperText Transfer Protocol, the foundation of data communication on the web"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 4,
+            "question": "What is DNS?",
+            "options": {
+              "a": "Domain Name System, translates domain names to IP addresses",
+              "b": "Dynamic Name Service",
+              "c": "Data Network System",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 5,
+            "question": "What is hosting?",
+            "options": {
+              "a": "Creating web applications",
+              "b": "Designing user interfaces",
+              "c": "Storing web application files on a server accessible via the internet",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 6,
+            "question": "What are web applications?",
+            "options": {
+              "a": "Mobile applications",
+              "b": "Programs accessed through a browser over the internet",
+              "c": "Desktop applications",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 7,
+            "question": "What is front-end?",
+            "options": {
+              "a": "The database",
+              "b": "The server-side logic",
+              "c": "None of the above",
+              "d": "The user-facing part of a web application (UI/UX)"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 8,
+            "question": "What is back-end?",
+            "options": {
+              "a": "The client-side code",
+              "b": "The server-side logic and data management of a web application",
+              "c": "The user interface",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 9,
+            "question": "What is a technology stack?",
+            "options": {
+              "a": "A type of database",
+              "b": "A programming language",
+              "c": "The combination of tools and languages used to build an application",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 10,
+            "question": "What is the web developer role?",
+            "options": {
+              "a": "Only managing databases",
+              "b": "Only designing user interfaces",
+              "c": "None of the above",
+              "d": "The responsibilities of designing, coding, and maintaining web applications"
+            },
+            "correct_option": "d"
+          }
+        ]
+      },
+      "chapter2": {
+        "questions": [
+          {
+            "id": 11,
+            "question": "What is HTML?",
+            "options": {
+              "a": "A type of database",
+              "b": "HyperText Markup Language, used to structure content on the web",
+              "c": "A programming language",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 12,
+            "question": "What is HTML5?",
+            "options": {
+              "a": "A programming language",
+              "b": "A type of CSS",
+              "c": "The latest version of HTML with new features like video and canvas",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 13,
+            "question": "What are elements in HTML?",
+            "options": {
+              "a": "Styles applied to HTML",
+              "b": "Scripts in HTML",
+              "c": "None of the above",
+              "d": "Building blocks of HTML, defined by tags (e.g., <p>, <div>)"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 14,
+            "question": "What are attributes in HTML?",
+            "options": {
+              "a": "Additional information added to HTML elements (e.g., id, class)",
+              "b": "Styles applied to HTML",
+              "c": "Scripts in HTML",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 15,
+            "question": "What is semantic markup?",
+            "options": {
+              "a": "Using CSS for styling",
+              "b": "Using HTML tags that convey meaning (e.g., <header>, <article>)",
+              "c": "Using JavaScript for interactivity",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 16,
+            "question": "What are forms in HTML?",
+            "options": {
+              "a": "Scripts in HTML",
+              "b": "Styles applied to HTML",
+              "c": "HTML structures for collecting user input (e.g., <input>, <form>)",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 17,
+            "question": "What are media elements in HTML?",
+            "options": {
+              "a": "Styles applied to HTML",
+              "b": "Scripts in HTML",
+              "c": "None of the above",
+              "d": "Tags like <audio> and <video> for embedding multimedia"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 18,
+            "question": "What is accessibility in web design?",
+            "options": {
+              "a": "Creating visually appealing designs",
+              "b": "Designing web pages to be usable by people with disabilities",
+              "c": "Optimizing for search engines",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 19,
+            "question": "What is structure in HTML?",
+            "options": {
+              "a": "The scripting of a web page",
+              "b": "The styling of a web page",
+              "c": "The organization of content on a web page using HTML",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 20,
+            "question": "What is a web page?",
+            "options": {
+              "a": "A type of database",
+              "b": "A single document displayed in a web browser",
+              "c": "A programming language",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter3": {
+        "questions": [
+          {
+            "id": 21,
+            "question": "What is CSS?",
+            "options": {
+              "a": "A programming language",
+              "b": "Cascading Style Sheets, used to style HTML elements",
+              "c": "A type of database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 22,
+            "question": "What are selectors in CSS?",
+            "options": {
+              "a": "Styles applied to HTML",
+              "b": "Scripts in HTML",
+              "c": "Patterns used to target HTML elements for styling (e.g., .class, #id)",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 23,
+            "question": "What are properties in CSS?",
+            "options": {
+              "a": "Types of HTML elements",
+              "b": "Style attributes applied to elements (e.g., color, font-size)",
+              "c": "Scripts in HTML",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 24,
+            "question": "What is the box model in CSS?",
+            "options": {
+              "a": "A JavaScript function",
+              "b": "A type of HTML element",
+              "c": "None of the above",
+              "d": "The layout structure of elements (margin, border, padding, content)"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 25,
+            "question": "What is Flexbox?",
+            "options": {
+              "a": "A CSS layout system for flexible and responsive designs",
+              "b": "A type of HTML element",
+              "c": "A JavaScript function",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 26,
+            "question": "What is Grid in CSS?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "A JavaScript function",
+              "c": "A CSS layout system for two-dimensional grid-based designs",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 27,
+            "question": "What is responsive design?",
+            "options": {
+              "a": "A programming language",
+              "b": "Techniques to make web pages adapt to different screen sizes",
+              "c": "A type of database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 28,
+            "question": "What are animations in CSS?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "CSS properties to create movement effects (e.g., @keyframes)",
+              "c": "A JavaScript function",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 29,
+            "question": "What are CSS frameworks?",
+            "options": {
+              "a": "A type of database",
+              "b": "A programming language",
+              "c": "Pre-built libraries like Bootstrap for faster styling",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 30,
+            "question": "What is styling?",
+            "options": {
+              "a": "The process of defining functions",
+              "b": "The process of creating classes",
+              "c": "None of the above",
+              "d": "The process of applying visual design to web elements"
+            },
+            "correct_option": "d"
+          }
+        ]
+      },
+      "chapter4": {
+        "questions": [
+          {
+            "id": 31,
+            "question": "What is JavaScript?",
+            "options": {
+              "a": "A type of database",
+              "b": "A programming language for adding interactivity to web pages",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 32,
+            "question": "What are variables in JavaScript?",
+            "options": {
+              "a": "A CSS property",
+              "b": "A type of HTML element",
+              "c": "Containers for storing data in JavaScript (e.g., let, const)",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 33,
+            "question": "What are data types in JavaScript?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "Categories of data like numbers, strings, and objects",
+              "c": "A CSS property",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 34,
+            "question": "What are functions in JavaScript?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "A CSS property",
+              "c": "None of the above",
+              "d": "Reusable blocks of JavaScript code"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 35,
+            "question": "What are control structures in JavaScript?",
+            "options": {
+              "a": "Statements like if-else and loops to control program flow",
+              "b": "A type of HTML element",
+              "c": "A CSS property",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 36,
+            "question": "What is DOM manipulation?",
+            "options": {
+              "a": "A CSS property",
+              "b": "Using JavaScript to modify the Document Object Model",
+              "c": "A type of HTML element",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 37,
+            "question": "What are events in JavaScript?",
+            "options": {
+              "a": "A CSS property",
+              "b": "A type of HTML element",
+              "c": "User actions (e.g., clicks) that JavaScript can respond to",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 38,
+            "question": "What are Promises in JavaScript?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "Objects representing the eventual result of an asynchronous operation",
+              "c": "A CSS property",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 39,
+            "question": "What is async/await in JavaScript?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "A CSS property",
+              "c": "Syntax for handling asynchronous code more easily",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 40,
+            "question": "What is interactivity in web pages?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "Making web pages respond to user actions",
+              "c": "A CSS property",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter5": {
+        "questions": [
+          {
+            "id": 41,
+            "question": "What is React?",
+            "options": {
+              "a": "A type of database",
+              "b": "A JavaScript library for building user interfaces",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 42,
+            "question": "What are components in React?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "A CSS property",
+              "c": "Reusable building blocks in React applications",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 43,
+            "question": "What is JSX?",
+            "options": {
+              "a": "A CSS framework",
+              "b": "A syntax extension for JavaScript used in React to write HTML-like code",
+              "c": "A type of database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 44,
+            "question": "What is state in React?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "A CSS property",
+              "c": "None of the above",
+              "d": "Data managed within a React component that can change"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 45,
+            "question": "What are props in React?",
+            "options": {
+              "a": "Data passed from parent to child components in React",
+              "b": "A type of HTML element",
+              "c": "A CSS property",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 46,
+            "question": "What are lifecycle methods in React?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "Functions that run at specific points in a component’s life",
+              "c": "A CSS property",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 47,
+            "question": "What are hooks in React?",
+            "options": {
+              "a": "A CSS property",
+              "b": "A type of HTML element",
+              "c": "Functions like useState and useEffect for managing state and side effects",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 48,
+            "question": "What is the context API in React?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "A way to share data across components without prop drilling",
+              "c": "A CSS property",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 49,
+            "question": "What is routing in React?",
+            "options": {
+              "a": "A type of HTML element",
+              "b": "A CSS property",
+              "c": "Managing navigation between pages in a React app",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 50,
+            "question": "What is a front-end framework?",
+            "options": {
+              "a": "A programming language",
+              "b": "A toolset for building complex user interfaces",
+              "c": "A type of database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter6": {
+        "questions": [
+          {
+            "id": 51,
+            "question": "What is Node.js?",
+            "options": {
+              "a": "A type of database",
+              "b": "A runtime for executing JavaScript on the server side",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 52,
+            "question": "What is server-side?",
+            "options": {
+              "a": "The client-side code",
+              "b": "The user interface",
+              "c": "The part of an application running on a server",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 53,
+            "question": "What is event-driven programming?",
+            "options": {
+              "a": "A type of database",
+              "b": "A programming model where code responds to events",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 54,
+            "question": "What is npm?",
+            "options": {
+              "a": "A type of database",
+              "b": "A CSS framework",
+              "c": "Node Package Manager, used to install and manage libraries",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 55,
+            "question": "What are modules in Node.js?",
+            "options": {
+              "a": "A CSS framework",
+              "b": "Reusable pieces of code in Node.js (e.g., built-in or custom)",
+              "c": "A type of database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 56,
+            "question": "What is a server?",
+            "options": {
+              "a": "A type of database",
+              "b": "A program that listens for and responds to client requests",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 57,
+            "question": "What are requests?",
+            "options": {
+              "a": "Responses from servers",
+              "b": "Messages sent from clients to servers (e.g., HTTP GET)",
+              "c": "Data stored in a database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 58,
+            "question": "What are responses?",
+            "options": {
+              "a": "Data stored in a database",
+              "b": "Messages sent from clients",
+              "c": "Data sent back from servers to clients",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 59,
+            "question": "What is the environment in Node.js?",
+            "options": {
+              "a": "A type of database",
+              "b": "A CSS framework",
+              "c": "The setup where Node.js runs (e.g., OS, dependencies)",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 60,
+            "question": "What is back-end in web development?",
+            "options": {
+              "a": "The client-side code",
+              "b": "The server-side logic and data handling of an app",
+              "c": "The user interface",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter7": {
+        "questions": [
+          {
+            "id": 61,
+            "question": "What is Express?",
+            "options": {
+              "a": "A type of database",
+              "b": "A web framework for Node.js to build APIs and web apps",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 62,
+            "question": "What is a REST API?",
+            "options": {
+              "a": "A type of database",
+              "b": "A CSS framework",
+              "c": "A design style for building web services using HTTP methods",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 63,
+            "question": "What is routing in Express?",
+            "options": {
+              "a": "A CSS framework",
+              "b": "Defining endpoints to handle specific HTTP requests",
+              "c": "A type of database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 64,
+            "question": "What is middleware in Express?",
+            "options": {
+              "a": "A type of database",
+              "b": "A CSS framework",
+              "c": "Functions that process requests before reaching routes",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 65,
+            "question": "What is error handling in Express?",
+            "options": {
+              "a": "A type of database",
+              "b": "Managing errors in an Express application",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 66,
+            "question": "What is a request object in Express?",
+            "options": {
+              "a": "An object containing data about an HTTP request",
+              "b": "A type of database",
+              "c": "An object containing data about an HTTP response",
+              "d": "None of the above"
+            },
+            "correct_option": "a"
+          },
+          {
+            "id": 67,
+            "question": "What is a response object in Express?",
+            "options": {
+              "a": "A type of database",
+              "b": "An object containing data about an HTTP request",
+              "c": "An object used to send data back to the client",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 68,
+            "question": "What are route parameters?",
+            "options": {
+              "a": "Static parts of a URL",
+              "b": "Dynamic parts of a URL (e.g., /users/:id)",
+              "c": "A type of database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 69,
+            "question": "What are query strings?",
+            "options": {
+              "a": "A type of database",
+              "b": "Static parts of a URL",
+              "c": "Key-value pairs in a URL for passing data (e.g., ?name=John)",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 70,
+            "question": "What is authentication in web applications?",
+            "options": {
+              "a": "A CSS framework",
+              "b": "Verifying the identity of users in an application",
+              "c": "A type of database",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+      "chapter8": {
+        "questions": [
+          {
+            "id": 71,
+            "question": "What are databases?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "Organized collections of data for storage and retrieval",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 72,
+            "question": "What is SQL?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "Structured Query Language, used for relational databases",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 73,
+            "question": "What is NoSQL?",
+            "options": {
+              "a": "A CSS framework",
+              "b": "Non-relational databases for flexible data storage",
+              "c": "A type of programming language",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 74,
+            "question": "What is MySQL?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "A popular open-source relational database system",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 75,
+            "question": "What is MongoDB?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "A CSS framework",
+              "c": "A NoSQL database storing data in JSON-like documents",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 76,
+            "question": "What are CRUD operations?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "Create, Read, Update, Delete actions on data",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 77,
+            "question": "What are relationships in databases?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "Connections between data tables in a relational database",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 78,
+            "question": "What is ORM?",
+            "options": {
+              "a": "A CSS framework",
+              "b": "Object-Relational Mapping, a tool to simplify SQL interactions",
+              "c": "A type of programming language",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 79,
+            "question": "What is ODM?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "Object-Document Mapping, a tool for NoSQL databases",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 80,
+            "question": "What is data storage?",
+            "options": {
+              "a": "A type of programming language",
+              "b": "The process of saving data for application use",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          }
+        ]
+      },
+     "chapter9": {
+        "questions": [
+          {
+            "id": 81,
+            "question": "What is a full stack application?",
+            "options": {
+              "a": "Only a back-end application",
+              "b": "A complete web app with front-end and back-end",
+              "c": "Only a front-end application",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 82,
+            "question": "What is front-end integration?",
+            "options": {
+              "a": "Connecting the database to the front-end",
+              "b": "Connecting the server to the client",
+              "c": "Connecting the user interface to the back-end",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 83,
+            "question": "What is back-end integration?",
+            "options": {
+              "a": "Linking the database to the front-end",
+              "b": "Linking server-side logic to the front-end",
+              "c": "Linking the client to the server",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 84,
+            "question": "What is authentication?",
+            "options": {
+              "a": "Determining user permissions",
+              "b": "Creating user accounts",
+              "c": "None of the above",
+              "d": "Verifying user identity (e.g., login)"
+            },
+            "correct_option": "d"
+          },
+          {
+            "id": 85,
+            "question": "What is authorization?",
+            "options": {
+              "a": "Creating user accounts",
+              "b": "Determining user permissions (e.g., access control)",
+              "c": "Verifying user identity",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 86,
+            "question": "What is deployment?",
+            "options": {
+              "a": "Testing an application",
+              "b": "Creating a new application",
+              "c": "Making an application live on a server or cloud",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 87,
+            "question": "What is testing?",
+            "options": {
+              "a": "Deploying an application",
+              "b": "Validating that an application works as expected",
+              "c": "Creating a new application",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 88,
+            "question": "What is Git?",
+            "options": {
+              "a": "A type of database",
+              "b": "A CSS framework",
+              "c": "A version control system for tracking code changes",
+              "d": "None of the above"
+            },
+            "correct_option": "c"
+          },
+          {
+            "id": 89,
+            "question": "What is CI/CD?",
+            "options": {
+              "a": "A type of database",
+              "b": "Continuous Integration/Continuous Deployment for automating updates",
+              "c": "A CSS framework",
+              "d": "None of the above"
+            },
+            "correct_option": "b"
+          },
+          {
+            "id": 90,
+            "question": "What are best practices in development?",
+            "options": {
+              "a": "A CSS framework",
+              "b": "A type of database",
+              "c": "None of the above",
+              "d": "Recommended techniques for efficient development"
+            },
+            "correct_option": "d"
+          }
+        ]
+      }
+    }
+  }
+}
